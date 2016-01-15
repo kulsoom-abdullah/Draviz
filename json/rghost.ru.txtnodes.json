@@ -1,0 +1,306 @@
+{
+  "links": [
+    {
+      "source": 0, 
+      "target": 0
+    }, 
+    {
+      "source": 0, 
+      "target": 1
+    }, 
+    {
+      "source": 0, 
+      "target": 2
+    }, 
+    {
+      "source": 0, 
+      "target": 3
+    }, 
+    {
+      "source": 0, 
+      "target": 4
+    }, 
+    {
+      "source": 0, 
+      "target": 5
+    }, 
+    {
+      "source": 0, 
+      "target": 6
+    }, 
+    {
+      "source": 0, 
+      "target": 7
+    }, 
+    {
+      "source": 0, 
+      "target": 8
+    }, 
+    {
+      "source": 0, 
+      "target": 9
+    }, 
+    {
+      "source": 0, 
+      "target": 10
+    }, 
+    {
+      "source": 0, 
+      "target": 11
+    }, 
+    {
+      "source": 0, 
+      "target": 12
+    }, 
+    {
+      "source": 0, 
+      "target": 13
+    }, 
+    {
+      "source": 0, 
+      "target": 14
+    }, 
+    {
+      "source": 0, 
+      "target": 15
+    }, 
+    {
+      "source": 0, 
+      "target": 16
+    }, 
+    {
+      "source": 0, 
+      "target": 17
+    }, 
+    {
+      "source": 0, 
+      "target": 18
+    }, 
+    {
+      "source": 0, 
+      "target": 19
+    }, 
+    {
+      "source": 0, 
+      "target": 20
+    }, 
+    {
+      "source": 0, 
+      "target": 21
+    }, 
+    {
+      "source": 0, 
+      "target": 22
+    }, 
+    {
+      "source": 0, 
+      "target": 23
+    }, 
+    {
+      "source": 0, 
+      "target": 24
+    }, 
+    {
+      "source": 0, 
+      "target": 25
+    }, 
+    {
+      "source": 0, 
+      "target": 26
+    }, 
+    {
+      "source": 0, 
+      "target": 27
+    }, 
+    {
+      "source": 0, 
+      "target": 28
+    }, 
+    {
+      "source": 0, 
+      "target": 29
+    }
+  ], 
+  "nodes": [
+    {
+      "bl": 1, 
+      "cc": "EU,RU,US", 
+      "dist": 0.0, 
+      "name": "rghost.ru"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 7.0711, 
+      "name": "artram.info"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 7.0711, 
+      "name": "emiamo.info"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 7.0711, 
+      "name": "congresoabierto.cl"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 7.0711, 
+      "name": "www.delaysprey.org"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 7.0711, 
+      "name": "ukmoneyday.com"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 7.0711, 
+      "name": "cf-protected.autographedcollegefootballphotos.info"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 7.0711, 
+      "name": "cf-protected.q.na"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 7.2111, 
+      "name": "cf-protected-www.rojastaxes.com.cdn.cloudflare.net"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 7.4833, 
+      "name": "cf-protected-www.gamers.it.cdn.cloudflare.net"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 7.4833, 
+      "name": "www2.indolombok.com"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 7.4833, 
+      "name": "zhyurikha.org"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 7.4833, 
+      "name": "www.realestateofmacomb.com"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 7.4833, 
+      "name": "cf-protected-www.egy-law.com.cdn.cloudflare.net"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 7.4833, 
+      "name": "cf-protected-www.wrightds.com.cdn.cloudflare.net"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 7.5498, 
+      "name": "dailydoggies.info"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 7.6158, 
+      "name": "cf-protected.incarte.altervista.org.cdn.cloudflare.net"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 7.6158, 
+      "name": "cf-protected.centrolaser.altervista.org.cdn.cloudflare.net"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 7.6158, 
+      "name": "remotedebug.org"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 7.6811, 
+      "name": "realestateofmacomb.com"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 7.746, 
+      "name": "devianttraveler.com"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 7.746, 
+      "name": "cloudthumbs.com"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 7.746, 
+      "name": "cf-protected-www.analorgasm.biz.cdn.cloudflare.net"
+    }, 
+    {
+      "bl": 1, 
+      "cc": "TR,US", 
+      "dist": 7.8102, 
+      "name": "delaysprey.org"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "ES,US", 
+      "dist": 7.8102, 
+      "name": "grupodinamika.info"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 7.874, 
+      "name": "www.stamforddirect.info"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 7.874, 
+      "name": "cf-protected-www.nizar-qabbani.com"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 7.874, 
+      "name": "cf-protected-www.twinkleberry.co.uk.cdn.cloudflare.net"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 7.874, 
+      "name": "cf-protected-www.bmw-cruiser.it.cdn.cloudflare.net"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 7.874, 
+      "name": "bottlesdecanterscollectors.com"
+    }
+  ]
+}

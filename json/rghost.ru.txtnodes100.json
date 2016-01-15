@@ -1,0 +1,986 @@
+{
+  "links": [
+    {
+      "source": 0, 
+      "target": 0
+    }, 
+    {
+      "source": 0, 
+      "target": 1
+    }, 
+    {
+      "source": 0, 
+      "target": 2
+    }, 
+    {
+      "source": 0, 
+      "target": 3
+    }, 
+    {
+      "source": 0, 
+      "target": 4
+    }, 
+    {
+      "source": 0, 
+      "target": 5
+    }, 
+    {
+      "source": 0, 
+      "target": 6
+    }, 
+    {
+      "source": 0, 
+      "target": 7
+    }, 
+    {
+      "source": 0, 
+      "target": 8
+    }, 
+    {
+      "source": 0, 
+      "target": 9
+    }, 
+    {
+      "source": 0, 
+      "target": 10
+    }, 
+    {
+      "source": 0, 
+      "target": 11
+    }, 
+    {
+      "source": 0, 
+      "target": 12
+    }, 
+    {
+      "source": 0, 
+      "target": 13
+    }, 
+    {
+      "source": 0, 
+      "target": 14
+    }, 
+    {
+      "source": 0, 
+      "target": 15
+    }, 
+    {
+      "source": 0, 
+      "target": 16
+    }, 
+    {
+      "source": 0, 
+      "target": 17
+    }, 
+    {
+      "source": 0, 
+      "target": 18
+    }, 
+    {
+      "source": 0, 
+      "target": 19
+    }, 
+    {
+      "source": 0, 
+      "target": 20
+    }, 
+    {
+      "source": 0, 
+      "target": 21
+    }, 
+    {
+      "source": 0, 
+      "target": 22
+    }, 
+    {
+      "source": 0, 
+      "target": 23
+    }, 
+    {
+      "source": 0, 
+      "target": 24
+    }, 
+    {
+      "source": 0, 
+      "target": 25
+    }, 
+    {
+      "source": 0, 
+      "target": 26
+    }, 
+    {
+      "source": 0, 
+      "target": 27
+    }, 
+    {
+      "source": 0, 
+      "target": 28
+    }, 
+    {
+      "source": 0, 
+      "target": 29
+    }, 
+    {
+      "source": 0, 
+      "target": 30
+    }, 
+    {
+      "source": 0, 
+      "target": 31
+    }, 
+    {
+      "source": 0, 
+      "target": 32
+    }, 
+    {
+      "source": 0, 
+      "target": 33
+    }, 
+    {
+      "source": 0, 
+      "target": 34
+    }, 
+    {
+      "source": 0, 
+      "target": 35
+    }, 
+    {
+      "source": 0, 
+      "target": 36
+    }, 
+    {
+      "source": 0, 
+      "target": 37
+    }, 
+    {
+      "source": 0, 
+      "target": 38
+    }, 
+    {
+      "source": 0, 
+      "target": 39
+    }, 
+    {
+      "source": 0, 
+      "target": 40
+    }, 
+    {
+      "source": 0, 
+      "target": 41
+    }, 
+    {
+      "source": 0, 
+      "target": 42
+    }, 
+    {
+      "source": 0, 
+      "target": 43
+    }, 
+    {
+      "source": 0, 
+      "target": 44
+    }, 
+    {
+      "source": 0, 
+      "target": 45
+    }, 
+    {
+      "source": 0, 
+      "target": 46
+    }, 
+    {
+      "source": 0, 
+      "target": 47
+    }, 
+    {
+      "source": 0, 
+      "target": 48
+    }, 
+    {
+      "source": 0, 
+      "target": 49
+    }, 
+    {
+      "source": 0, 
+      "target": 50
+    }, 
+    {
+      "source": 0, 
+      "target": 51
+    }, 
+    {
+      "source": 0, 
+      "target": 52
+    }, 
+    {
+      "source": 0, 
+      "target": 53
+    }, 
+    {
+      "source": 0, 
+      "target": 54
+    }, 
+    {
+      "source": 0, 
+      "target": 55
+    }, 
+    {
+      "source": 0, 
+      "target": 56
+    }, 
+    {
+      "source": 0, 
+      "target": 57
+    }, 
+    {
+      "source": 0, 
+      "target": 58
+    }, 
+    {
+      "source": 0, 
+      "target": 59
+    }, 
+    {
+      "source": 0, 
+      "target": 60
+    }, 
+    {
+      "source": 0, 
+      "target": 61
+    }, 
+    {
+      "source": 0, 
+      "target": 62
+    }, 
+    {
+      "source": 0, 
+      "target": 63
+    }, 
+    {
+      "source": 0, 
+      "target": 64
+    }, 
+    {
+      "source": 0, 
+      "target": 65
+    }, 
+    {
+      "source": 0, 
+      "target": 66
+    }, 
+    {
+      "source": 0, 
+      "target": 67
+    }, 
+    {
+      "source": 0, 
+      "target": 68
+    }, 
+    {
+      "source": 0, 
+      "target": 69
+    }, 
+    {
+      "source": 0, 
+      "target": 70
+    }, 
+    {
+      "source": 0, 
+      "target": 71
+    }, 
+    {
+      "source": 0, 
+      "target": 72
+    }, 
+    {
+      "source": 0, 
+      "target": 73
+    }, 
+    {
+      "source": 0, 
+      "target": 74
+    }, 
+    {
+      "source": 0, 
+      "target": 75
+    }, 
+    {
+      "source": 0, 
+      "target": 76
+    }, 
+    {
+      "source": 0, 
+      "target": 77
+    }, 
+    {
+      "source": 0, 
+      "target": 78
+    }, 
+    {
+      "source": 0, 
+      "target": 79
+    }, 
+    {
+      "source": 0, 
+      "target": 80
+    }, 
+    {
+      "source": 0, 
+      "target": 81
+    }, 
+    {
+      "source": 0, 
+      "target": 82
+    }, 
+    {
+      "source": 0, 
+      "target": 83
+    }, 
+    {
+      "source": 0, 
+      "target": 84
+    }, 
+    {
+      "source": 0, 
+      "target": 85
+    }, 
+    {
+      "source": 0, 
+      "target": 86
+    }, 
+    {
+      "source": 0, 
+      "target": 87
+    }, 
+    {
+      "source": 0, 
+      "target": 88
+    }, 
+    {
+      "source": 0, 
+      "target": 89
+    }, 
+    {
+      "source": 0, 
+      "target": 90
+    }, 
+    {
+      "source": 0, 
+      "target": 91
+    }, 
+    {
+      "source": 0, 
+      "target": 92
+    }, 
+    {
+      "source": 0, 
+      "target": 93
+    }, 
+    {
+      "source": 0, 
+      "target": 94
+    }, 
+    {
+      "source": 0, 
+      "target": 95
+    }, 
+    {
+      "source": 0, 
+      "target": 96
+    }, 
+    {
+      "source": 0, 
+      "target": 97
+    }
+  ], 
+  "nodes": [
+    {
+      "bl": 1, 
+      "cc": "EU,RU,US", 
+      "dist": 0.0, 
+      "name": "rghost.ru"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 8.2462, 
+      "name": "millbayhomes.com"
+    }, 
+    {
+      "bl": 1,
+      "cc": "US", 
+      "dist": 8.0, 
+      "name": "cf-protected-www.dieselfilters.us.cdn.cloudflare.net"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 8.2462, 
+      "name": "semscenter.com"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 8.0, 
+      "name": "cf-protected.ilmusicistaindie.altervista.org.cdn.cloudflare.net"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 9.1652, 
+      "name": "www.infinitytitle.com"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 8.4261, 
+      "name": "literacycenter.net"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 7.874, 
+      "name": "www.stamforddirect.info"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "CA,US", 
+      "dist": 8.3666, 
+      "name": "directory.stamforddirect.info"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "TR,US", 
+      "dist": 7.8102, 
+      "name": "delaysprey.org"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "GB,US", 
+      "dist": 8.7178, 
+      "name": "www.appdl.net"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 7.874, 
+      "name": "cf-protected-www.nizar-qabbani.com"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "ES,US", 
+      "dist": 8.544, 
+      "name": "blogsasociados.com"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 7.4833, 
+      "name": "cf-protected-www.gamers.it.cdn.cloudflare.net"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 7.874, 
+      "name": "cf-protected-www.twinkleberry.co.uk.cdn.cloudflare.net"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 7.0711, 
+      "name": "artram.info"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 8.4853, 
+      "name": "beanair.com"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 7.746, 
+      "name": "devianttraveler.com"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 10.0, 
+      "name": "misescolombia.com"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 8.0, 
+      "name": "dentalassistant-colleges.com"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 8.6023, 
+      "name": "sugarriverkettlecorn.com"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "CA,US", 
+      "dist": 8.1854, 
+      "name": "guidedlight.ca"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "AR,US", 
+      "dist": 10.7238, 
+      "name": "dipublico.com.ar"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "CA,US", 
+      "dist": 7.9373, 
+      "name": "trueride.info"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "ES,US", 
+      "dist": 7.8102, 
+      "name": "grupodinamika.info"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 8.2462, 
+      "name": "www.d2tournies.com"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 9.0554, 
+      "name": "cf-protected-www.fridgeseal-welderkit.com.cdn.cloudflare.net"
+    }, 
+    {
+      "bl": 0,
+      "cc": "US", 
+      "dist": 7.0711, 
+      "name": "emiamo.info"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "KY,US", 
+      "dist": 8.4853, 
+      "name": "www.recipefour.com"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 8.124, 
+      "name": "factorpaintball.com"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 8.0623, 
+      "name": "cf-protected-www.trainmasters.tv.cdn.cloudflare.net"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 8.3666, 
+      "name": "myluxurydestinationwedding.com"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 8.0, 
+      "name": "cf-protected-www.ovaltambour.com.cdn.cloudflare.net"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 8.2462, 
+      "name": "www.2sw.me"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 8.3666, 
+      "name": "cf-protected-039.amobileapp4.com.cdn.cloudflare.net"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "SI,NL,US", 
+      "dist": 8.124, 
+      "name": "geekpeek.net"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 7.874, 
+      "name": "cf-protected-www.bmw-cruiser.it.cdn.cloudflare.net"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 7.4833, 
+      "name": "www2.indolombok.com"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 7.4833, 
+      "name": "zhyurikha.org"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 8.0, 
+      "name": "cf-protected-www.archdata.org"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 7.874, 
+      "name": "bottlesdecanterscollectors.com"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 7.746, 
+      "name": "cloudthumbs.com"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 7.874, 
+      "name": "cf-protected-www.blacchollywood.com.cdn.cloudflare.net"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 8.9443, 
+      "name": "img.saigonarea.com"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "JP,US", 
+      "dist": 8.8318, 
+      "name": "noreferendum.org"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "GB,US", 
+      "dist": 8.3066, 
+      "name": "events-manchester.co.uk"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 8.2462, 
+      "name": "www.casitamontessorischool.org"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 7.6158, 
+      "name": "cf-protected.incarte.altervista.org.cdn.cloudflare.net"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "SI,US", 
+      "dist": 8.3066, 
+      "name": "www.geekpeek.net"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "SG,US", 
+      "dist": 7.9373, 
+      "name": "theprofitjam.com"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 8.0, 
+      "name": "cf-protected-www.objectscs.com.cdn.cloudflare.net"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "CA,US", 
+      "dist": 8.8882, 
+      "name": "satelliteheartradio.com"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 7.4833, 
+      "name": "www.realestateofmacomb.com"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 8.124, 
+      "name": "cf-protected-dev.trainmasters.tv.cdn.cloudflare.net"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 8.0, 
+      "name": "cf-protected-www.fra.org.br.cdn.cloudflare.net"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 8.2462, 
+      "name": "cf-protected-www.opdebeeck.com.cdn.cloudflare.net"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 7.0711, 
+      "name": "congresoabierto.cl"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 7.874, 
+      "name": "www.akinayodele.com"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "DE,US", 
+      "dist": 8.0, 
+      "name": "cucinaericette.info"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 7.2111, 
+      "name": "cf-protected-www.rojastaxes.com.cdn.cloudflare.net"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 8.775, 
+      "name": "relevantchurch.org"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "ES,US", 
+      "dist": 8.3066, 
+      "name": "static.blogsasociados.com"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 7.6158, 
+      "name": "cf-protected.centrolaser.altervista.org.cdn.cloudflare.net"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 10.0, 
+      "name": "typeaminimalist.com"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 8.0, 
+      "name": "mhkprint.com"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 7.6158, 
+      "name": "remotedebug.org"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 7.4833, 
+      "name": "cf-protected-www.egy-law.com.cdn.cloudflare.net"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 7.6811, 
+      "name": "realestateofmacomb.com"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 8.124, 
+      "name": "www.myluxurydestinationwedding.com"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 7.874, 
+      "name": "cf-protected-www.reviewe.co.uk"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 8.7178, 
+      "name": "backalleybistro.net"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "EU,US", 
+      "dist": 8.0623, 
+      "name": "cf-protected-www.jinsoon888.com.cdn.cloudflare.net"
+    }, 
+    {
+      "bl": 1,
+      "cc": "BG,US", 
+      "dist": 7.9373, 
+      "name": "img.infinitymu.net"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 7.5498, 
+      "name": "dailydoggies.info"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 7.4833, 
+      "name": "cf-protected-www.wrightds.com.cdn.cloudflare.net"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 8.2462, 
+      "name": "chinaphonebox.com"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 7.0711, 
+      "name": "www.delaysprey.org"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 8.0, 
+      "name": "slenderiizwithslenderiix.com"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "CA,US", 
+      "dist": 7.874, 
+      "name": "stamforddirect.info"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 7.0711, 
+      "name": "ukmoneyday.com"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 8.0, 
+      "name": "pornosexmani.biz"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US,VG", 
+      "dist": 8.3666, 
+      "name": "foreveryjew.com"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 7.874, 
+      "name": "www.goesselhouse.com"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "NL,US", 
+      "dist": 8.6023, 
+      "name": "inkmarkt.com"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "CA,US", 
+      "dist": 8.7178, 
+      "name": "members.stamforddirect.info"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 7.0711, 
+      "name": "cf-protected.autographedcollegefootballphotos.info"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 7.0711, 
+      "name": "cf-protected.q.na"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "FR,DE,GB,US", 
+      "dist": 9.0, 
+      "name": "legacy.soulquestrpg.com"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 8.3666, 
+      "name": "cf-protected.pietanze.altervista.org.cdn.cloudflare.net"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 9.4868, 
+      "name": "ds1communications.com"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "DE,US", 
+      "dist": 8.4261, 
+      "name": "centralradio.info"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 7.746, 
+      "name": "cf-protected-www.analorgasm.biz.cdn.cloudflare.net"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "LV,DE,US", 
+      "dist": 8.7178, 
+      "name": "www.pakitlab.com"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 7.874, 
+      "name": "cf-protected.f1networks.altervista.org.cdn.cloudflare.net"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 8.124, 
+      "name": "japanesetanto.info"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 7.874, 
+      "name": "cf-protected.camcordersmarket.info"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "US", 
+      "dist": 8.4261, 
+      "name": "www.literacycenter.net"
+    }, 
+    {
+      "bl": 0, 
+      "cc": "CA,US", 
+      "dist": 8.6603, 
+      "name": "www.satelliteheartradio.com"
+    }
+  ]
+}

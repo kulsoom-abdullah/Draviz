@@ -1,0 +1,880 @@
+{
+    
+"name": "vkduty.ru",
+  "children": [
+    {
+      "bl_count": 0, 
+      "cc": "US", 
+      "children": [
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 5.0, 
+          "name": "ggp-malls-api-stage.punchkick.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 6.0828, 
+          "name": "cf-protected.prerender.io"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "NL,US", 
+          "dist": 6.3246, 
+          "name": "www.utrecht2013.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 5.0, 
+          "name": "cf-ssl51697-protected-www.prerender.io"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 5.3852, 
+          "name": "www.pokemonlakeforum.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "CZ,US", 
+          "dist": 7.3485, 
+          "name": "guccibrandstore.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "EU,US,VG", 
+          "dist": 7.2111, 
+          "name": "www.boobsternewscenter.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 5.0, 
+          "name": "microsoftservicescareers.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 5.0, 
+          "name": "cf-ssl37049-protected-www.microsoftservicescareers.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,US", 
+          "dist": 0.0, 
+          "name": "vkduty.ru"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,US", 
+          "dist": 3.3166, 
+          "name": "www.vkduty.ru"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 5.0, 
+          "name": "cf-ssl37047-protected-www.ecustomfinishes.com.cdn.cloudflare.net"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 6.3246, 
+          "name": "punchkick.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 5.5678, 
+          "name": "cf-protected-cdn.cruzerlite.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 6.245, 
+          "name": "highrollercams.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 5.5678, 
+          "name": "cf-ssl24315-protected-www.jerrysnuthouse.com.cdn.cloudflare.net"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 5.5678, 
+          "name": "www.enfeelcdn.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "EU,US,VG", 
+          "dist": 6.6332, 
+          "name": "boobsternewscenter.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 5.0, 
+          "name": "cf-ssl51697-protected.prerender.io"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "NL,US", 
+          "dist": 6.3246, 
+          "name": "utrecht2013.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 5.5678, 
+          "name": "cf-protected-www.cruzerlite.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "KR,US", 
+          "dist": 5.4772, 
+          "name": "birzzlefever.enfeelcdn.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 6.0828, 
+          "name": "cf-protected-www.prerender.io"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 5.3852, 
+          "name": "pokemonlakeforum.com"
+        }
+      ], 
+      "cluster_dom_count": 24, 
+      "name": "108.162.205.153"
+    }, 
+    {
+      "bl_count": 0, 
+      "cc": "US", 
+      "children": [
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 5.0, 
+          "name": "ggp-malls-api-stage.punchkick.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "EU,US", 
+          "dist": 6.3246, 
+          "name": "kidubu.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "NL,US", 
+          "dist": 6.3246, 
+          "name": "www.utrecht2013.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "EU,US", 
+          "dist": 6.3246, 
+          "name": "ch.kidubu.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 5.0, 
+          "name": "cf-ssl51697-protected-www.prerender.io"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 5.3852, 
+          "name": "www.pokemonlakeforum.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "EU,US,VG", 
+          "dist": 7.2111, 
+          "name": "www.boobsternewscenter.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 5.0, 
+          "name": "microsoftservicescareers.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 5.0, 
+          "name": "cf-ssl37049-protected-www.microsoftservicescareers.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,US", 
+          "dist": 0.0, 
+          "name": "vkduty.ru"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,US", 
+          "dist": 3.3166, 
+          "name": "www.vkduty.ru"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 5.0, 
+          "name": "cf-ssl37047-protected-www.ecustomfinishes.com.cdn.cloudflare.net"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "EU,US", 
+          "dist": 6.3246, 
+          "name": "www.kidubu.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 6.3246, 
+          "name": "punchkick.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 6.245, 
+          "name": "highrollercams.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 5.5678, 
+          "name": "cf-ssl24315-protected-www.jerrysnuthouse.com.cdn.cloudflare.net"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "EU,US,VG", 
+          "dist": 6.6332, 
+          "name": "boobsternewscenter.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 5.0, 
+          "name": "cf-ssl51697-protected.prerender.io"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "NL,US", 
+          "dist": 6.3246, 
+          "name": "utrecht2013.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "KR,US", 
+          "dist": 5.4772, 
+          "name": "birzzlefever.enfeelcdn.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 5.3852, 
+          "name": "pokemonlakeforum.com"
+        }
+      ], 
+      "cluster_dom_count": 21, 
+      "name": "108.162.206.153"
+    }, 
+    {
+      "bl_count": 0, 
+      "cc": "US", 
+      "children": [
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 5.5678, 
+          "name": "cf-ssl51697-protected-api.prerender.io"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 5.0, 
+          "name": "ggp-malls-api-stage.punchkick.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "NL,US", 
+          "dist": 6.3246, 
+          "name": "www.utrecht2013.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 5.0, 
+          "name": "cf-ssl51697-protected-www.prerender.io"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 5.2915, 
+          "name": "www.pokemonlakeforum.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 4.899, 
+          "name": "microsoftservicescareers.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 5.0, 
+          "name": "cf-ssl37049-protected-www.microsoftservicescareers.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,US", 
+          "dist": 0.0, 
+          "name": "vkduty.ru"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 5.5678, 
+          "name": "ws.acnsf.org.br"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 5.3852, 
+          "name": "cf-ssl49252-protected-www.hompathcure.com.cdn.cloudflare.net"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,US", 
+          "dist": 3.3166, 
+          "name": "www.vkduty.ru"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 5.0, 
+          "name": "cf-ssl37047-protected-www.ecustomfinishes.com.cdn.cloudflare.net"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 5.5678, 
+          "name": "enfeelcdn.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 6.3246, 
+          "name": "punchkick.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 6.1644, 
+          "name": "highrollercams.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 5.4772, 
+          "name": "cf-ssl24315-protected-www.jerrysnuthouse.com.cdn.cloudflare.net"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 5.5678, 
+          "name": "cf-ssl12428-protected-s.cruzerlite.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 5.5678, 
+          "name": "cf-ssl51697-protected-service.prerender.io"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 5.0, 
+          "name": "cf-ssl51697-protected.prerender.io"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "NL,US", 
+          "dist": 6.3246, 
+          "name": "utrecht2013.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "KR,US", 
+          "dist": 5.3852, 
+          "name": "birzzlefever.enfeelcdn.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 5.2915, 
+          "name": "pokemonlakeforum.com"
+        }
+      ], 
+      "cluster_dom_count": 22, 
+      "name": "162.159.242.114"
+    }, 
+    {
+      "bl_count": 0, 
+      "cc": "US", 
+      "children": [
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 5.5678, 
+          "name": "cf-ssl51697-protected-api.prerender.io"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 5.0, 
+          "name": "ggp-malls-api-stage.punchkick.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "NL,US", 
+          "dist": 6.3246, 
+          "name": "www.utrecht2013.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 5.0, 
+          "name": "cf-ssl51697-protected-www.prerender.io"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 5.2915, 
+          "name": "www.pokemonlakeforum.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 4.899, 
+          "name": "microsoftservicescareers.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 5.0, 
+          "name": "cf-ssl37049-protected-www.microsoftservicescareers.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,US", 
+          "dist": 0.0, 
+          "name": "vkduty.ru"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 5.5678, 
+          "name": "ws.acnsf.org.br"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 5.3852, 
+          "name": "cf-ssl49252-protected-www.hompathcure.com.cdn.cloudflare.net"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,US", 
+          "dist": 3.3166, 
+          "name": "www.vkduty.ru"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 5.0, 
+          "name": "cf-ssl37047-protected-www.ecustomfinishes.com.cdn.cloudflare.net"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 5.5678, 
+          "name": "enfeelcdn.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 6.3246, 
+          "name": "punchkick.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 6.1644, 
+          "name": "highrollercams.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 5.4772, 
+          "name": "cf-ssl24315-protected-www.jerrysnuthouse.com.cdn.cloudflare.net"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 5.5678, 
+          "name": "cf-ssl12428-protected-s.cruzerlite.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 5.5678, 
+          "name": "cf-ssl51697-protected-service.prerender.io"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 5.0, 
+          "name": "cf-ssl51697-protected.prerender.io"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "NL,US", 
+          "dist": 6.3246, 
+          "name": "utrecht2013.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "KR,US", 
+          "dist": 5.3852, 
+          "name": "birzzlefever.enfeelcdn.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 5.2915, 
+          "name": "pokemonlakeforum.com"
+        }
+      ], 
+      "cluster_dom_count": 22, 
+      "name": "162.159.243.114"
+    }, 
+    {
+      "bl_count": 0, 
+      "cc": "US", 
+      "children": [
+        {
+          "bl": 0, 
+          "cc": "DE,US", 
+          "dist": 3.3166, 
+          "name": "www.vkduty.ru"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,US", 
+          "dist": 0.0, 
+          "name": "vkduty.ru"
+        }
+      ], 
+      "cluster_dom_count": 2, 
+      "name": "38.126.172.6"
+    }, 
+    {
+      "bl_count": 0, 
+      "cc": "DE", 
+      "children": [
+        {
+          "bl": 0, 
+          "cc": "DE,US", 
+          "dist": 3.3166, 
+          "name": "www.vkduty.ru"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,US", 
+          "dist": 0.0, 
+          "name": "vkduty.ru"
+        }
+      ], 
+      "cluster_dom_count": 2, 
+      "name": "46.4.173.208"
+    }, 
+    {
+      "bl_count": 0, 
+      "cc": "DE", 
+      "children": [
+        {
+          "bl": 0, 
+          "cc": "DE,US", 
+          "dist": 3.3166, 
+          "name": "www.vkduty.ru"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,US", 
+          "dist": 0.0, 
+          "name": "vkduty.ru"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,US", 
+          "dist": 5.7446, 
+          "name": "www.rapbest.ru"
+        }
+      ], 
+      "cluster_dom_count": 3, 
+      "name": "46.4.173.221"
+    }, 
+    {
+      "bl_count": 0, 
+      "cc": "US", 
+      "children": [
+        {
+          "bl": 0, 
+          "cc": "DE,US", 
+          "dist": 0.0, 
+          "name": "vkduty.ru"
+        }
+      ], 
+      "cluster_dom_count": 1, 
+      "name": "64.79.111.152"
+    }, 
+    {
+      "bl_count": 0, 
+      "cc": "DE", 
+      "children": [
+        {
+          "bl": 0, 
+          "cc": "DE,US", 
+          "dist": 3.3166, 
+          "name": "www.vkduty.ru"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,US", 
+          "dist": 0.0, 
+          "name": "vkduty.ru"
+        }
+      ], 
+      "cluster_dom_count": 2, 
+      "name": "77.72.133.250"
+    }, 
+    {
+      "bl_count": 0, 
+      "cc": "DE", 
+      "children": [
+        {
+          "bl": 0, 
+          "cc": "DE,US", 
+          "dist": 0.0, 
+          "name": "vkduty.ru"
+        }
+      ], 
+      "cluster_dom_count": 1, 
+      "name": "88.198.9.126"
+    }, 
+    {
+      "bl_count": 0, 
+      "cc": "", 
+      "children": [
+        {
+          "bl": 0, 
+          "cc": "DE,US", 
+          "dist": 0.0, 
+          "name": "vkduty.ru"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 5.3852, 
+          "name": "cf-ssl49252-protected-www.hompathcure.com.cdn.cloudflare.net"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "EU,US", 
+          "dist": 6.0828, 
+          "name": "cf-ssl12428-protected-support.cruzerlite.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 5.0, 
+          "name": "cf-ssl51697-protected.prerender.io"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 5.0, 
+          "name": "cf-ssl51697-protected-www.prerender.io"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,US", 
+          "dist": 3.3166, 
+          "name": "www.vkduty.ru"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "KR,US", 
+          "dist": 5.3852, 
+          "name": "birzzlefever.enfeelcdn.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "EU,US", 
+          "dist": 6.3246, 
+          "name": "kidubu.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 5.4772, 
+          "name": "cf-ssl24315-protected-www.jerrysnuthouse.com.cdn.cloudflare.net"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "EU,US", 
+          "dist": 6.1644, 
+          "name": "cf-ssl12428-protected-www.cruzerlite.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 5.0, 
+          "name": "ggp-malls-api-stage.punchkick.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "EU,US", 
+          "dist": 6.3246, 
+          "name": "www.kidubu.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 5.2915, 
+          "name": "pokemonlakeforum.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 4.899, 
+          "name": "microsoftservicescareers.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "EU,US", 
+          "dist": 6.3246, 
+          "name": "ch.kidubu.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "EU,US,VG", 
+          "dist": 6.5574, 
+          "name": "boobsternewscenter.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 5.0, 
+          "name": "cf-ssl37049-protected-www.microsoftservicescareers.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 6.1644, 
+          "name": "highrollercams.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "EU,US", 
+          "dist": 6.0828, 
+          "name": "cf-ssl12428-protected-cdn.cruzerlite.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "EU,US,VG", 
+          "dist": 7.2111, 
+          "name": "www.boobsternewscenter.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "NL,US", 
+          "dist": 6.245, 
+          "name": "utrecht2013.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 5.2915, 
+          "name": "www.pokemonlakeforum.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "NL,US", 
+          "dist": 6.3246, 
+          "name": "www.utrecht2013.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "EU,US", 
+          "dist": 7.3485, 
+          "name": "cruzerlite.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 6.245, 
+          "name": "punchkick.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 5.5678, 
+          "name": "cf-ssl12428-protected-s.cruzerlite.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 5.0, 
+          "name": "cf-ssl37047-protected-www.ecustomfinishes.com.cdn.cloudflare.net"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 5.5678, 
+          "name": "enfeelcdn.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 5.5678, 
+          "name": "ws.acnsf.org.br"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 5.5678, 
+          "name": "cf-ssl51697-protected-service.prerender.io"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US", 
+          "dist": 5.5678, 
+          "name": "cf-ssl51697-protected-api.prerender.io"
+        }
+      ], 
+      "cluster_dom_count": 31, 
+      "name": "Combined RHIP Clusters"
+    }
+  ]
+}

@@ -1,0 +1,814 @@
+{
+  "children": [
+    {
+      "bl_count": 0, 
+      "cc": "DE", 
+      "children": [
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 3.873, 
+          "name": "enutka.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 3.873, 
+          "name": "paint.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 4.4721, 
+          "name": "slaskagazeta.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 3.873, 
+          "name": "gur.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 4.3589, 
+          "name": "pompyciepla.biz"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,US,PL", 
+          "dist": 4.899, 
+          "name": "zapiska.eu"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL,ZZ", 
+          "dist": 0.0, 
+          "name": "gim8.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 3.873, 
+          "name": "uch.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 3.873, 
+          "name": "kafejki.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "CA,DE,PL", 
+          "dist": 4.4721, 
+          "name": "facebok.pl"
+        }
+      ], 
+      "cluster_dom_count": 10, 
+      "name": "109.234.110.105"
+    }, 
+    {
+      "bl_count": 0, 
+      "cc": "DE", 
+      "children": [
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 4.1231, 
+          "name": "jakpowiekszycpenisa.com.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "CA,DE,PL", 
+          "dist": 6.0828, 
+          "name": "serialove.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 4.1231, 
+          "name": "videoteka.com.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL,ZZ", 
+          "dist": 0.0, 
+          "name": "gim8.pl"
+        }
+      ], 
+      "cluster_dom_count": 4, 
+      "name": "109.234.111.13"
+    }, 
+    {
+      "bl_count": 0, 
+      "cc": "DE", 
+      "children": [
+        {
+          "bl": 0, 
+          "cc": "FR,DE,PL", 
+          "dist": 5.1962, 
+          "name": "panidyrektor.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL,ZZ", 
+          "dist": 0.0, 
+          "name": "gim8.pl"
+        }
+      ], 
+      "cluster_dom_count": 2, 
+      "name": "109.234.111.47"
+    }, 
+    {
+      "bl_count": 6, 
+      "cc": "ZZ", 
+      "children": [
+        {
+          "bl": 0, 
+          "cc": "DE,PL,ZZ", 
+          "dist": 0.0, 
+          "name": "gim8.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "PL,ZZ", 
+          "dist": 4.4721, 
+          "name": "www.czarnekoszule.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "PL,ZZ", 
+          "dist": 4.4721, 
+          "name": "www.teen.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "PL,ZZ", 
+          "dist": 4.4721, 
+          "name": "teen.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "CA,PL,ZZ", 
+          "dist": 5.0, 
+          "name": "www.harce.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US,ZZ,PL", 
+          "dist": 5.0, 
+          "name": "www.everim.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "CA,PL,ZZ", 
+          "dist": 5.0, 
+          "name": "harce.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "PL,ZZ", 
+          "dist": 5.099, 
+          "name": "redbasse.ugu.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "FR,DE,PL,ZZ", 
+          "dist": 5.4772, 
+          "name": "gkosyl.hostcenter.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "CA,PL,ZZ,GB", 
+          "dist": 5.4772, 
+          "name": "aktualnosci.linki.ml1.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "CA,DE,PL,ZZ", 
+          "dist": 5.6569, 
+          "name": "forum.prestashop.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "TR,ZZ", 
+          "dist": 5.6569, 
+          "name": "tiresalipazari.net"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "TR,ZZ", 
+          "dist": 5.6569, 
+          "name": "izmirmatematik.net"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "ZZ,US", 
+          "dist": 5.6569, 
+          "name": "hoteltorino.info"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "ZZ,US", 
+          "dist": 5.6569, 
+          "name": "hotellignano.info"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "CA,DE,PL,ZZ", 
+          "dist": 5.6569, 
+          "name": "www.forum.prestashop.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "TR,ZZ", 
+          "dist": 5.6569, 
+          "name": "yaseminim.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US,ZZ,PL", 
+          "dist": 5.6569, 
+          "name": "www.lyjak.waw.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "ZZ,US", 
+          "dist": 5.6569, 
+          "name": "hoteltrieste.info"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "ZZ,US", 
+          "dist": 5.6569, 
+          "name": "baseunit.net"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "ZZ,US", 
+          "dist": 5.9161, 
+          "name": "easywp.biz"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "TR,ZZ", 
+          "dist": 5.9161, 
+          "name": "markayla.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,TR,ZZ", 
+          "dist": 5.9161, 
+          "name": "www.ngatv.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US,ZZ", 
+          "dist": 6.0, 
+          "name": "www.lesbiansplayroom.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US,ZZ", 
+          "dist": 6.0, 
+          "name": "p.widgetserver.com"
+        }
+      ], 
+      "cluster_dom_count": 261, 
+      "name": "127.0.0.1"
+    }, 
+    {
+      "bl_count": 0, 
+      "cc": "PL", 
+      "children": [
+        {
+          "bl": 0, 
+          "cc": "PL,ZZ", 
+          "dist": 5.0, 
+          "name": "redbasse.ugu.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 3.4641, 
+          "name": "www.gim8.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "FR,DE,PL,ZZ", 
+          "dist": 5.4772, 
+          "name": "gkosyl.hostcenter.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL,ZZ", 
+          "dist": 0.0, 
+          "name": "gim8.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "FR,DE,PL", 
+          "dist": 5.6569, 
+          "name": "www.metal.hostcenter.pl"
+        }
+      ], 
+      "cluster_dom_count": 5, 
+      "name": "148.81.111.99"
+    }, 
+    {
+      "bl_count": 0, 
+      "cc": "PL", 
+      "children": [
+        {
+          "bl": 0, 
+          "cc": "DE,PL,ZZ", 
+          "dist": 0.0, 
+          "name": "gim8.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 3.3166, 
+          "name": "www.gim8.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 3.873, 
+          "name": "uch.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 3.873, 
+          "name": "paint.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 3.873, 
+          "name": "enutka.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 3.873, 
+          "name": "gur.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 3.873, 
+          "name": "kafejki.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 4.1231, 
+          "name": "www.hiro.radicaltoys.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 4.1231, 
+          "name": "uwolnicmatke.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 4.1231, 
+          "name": "jakpowiekszycpenisa.com.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 4.1231, 
+          "name": "blueline.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 4.1231, 
+          "name": "videoteka.com.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 4.1231, 
+          "name": "portals.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 4.1231, 
+          "name": "www.tran.turboseo.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 4.1231, 
+          "name": "odblokuj.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 4.1231, 
+          "name": "bhpszczecin.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 4.1231, 
+          "name": "wsad.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 4.1231, 
+          "name": "malymjachtem.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 4.1231, 
+          "name": "druki-wielkoformatowe.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 4.1231, 
+          "name": "3dmark.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 4.1231, 
+          "name": "grostad.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 4.1231, 
+          "name": "dun.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 4.1231, 
+          "name": "expn-it.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 4.1231, 
+          "name": "wwwnanodesignpl.polska-firma.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 4.2426, 
+          "name": "tomaszpohl.pl"
+        }
+      ], 
+      "cluster_dom_count": 136, 
+      "name": "212.91.6.58"
+    }, 
+    {
+      "bl_count": 4, 
+      "cc": "PL", 
+      "children": [
+        {
+          "bl": 0, 
+          "cc": "DE,PL,ZZ", 
+          "dist": 0.0, 
+          "name": "gim8.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 3.3166, 
+          "name": "www.gim8.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 3.873, 
+          "name": "uch.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 3.873, 
+          "name": "paint.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 3.873, 
+          "name": "enutka.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 3.873, 
+          "name": "gur.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 3.873, 
+          "name": "kafejki.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 4.1231, 
+          "name": "www.hiro.radicaltoys.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 4.1231, 
+          "name": "jakpowiekszycpenisa.com.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 4.1231, 
+          "name": "blueline.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 4.1231, 
+          "name": "videoteka.com.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 4.1231, 
+          "name": "portals.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 4.1231, 
+          "name": "www.tran.turboseo.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 4.1231, 
+          "name": "wsad.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 4.1231, 
+          "name": "malymjachtem.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 4.1231, 
+          "name": "druki-wielkoformatowe.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 4.1231, 
+          "name": "3dmark.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 4.1231, 
+          "name": "grostad.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 4.1231, 
+          "name": "dun.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 4.1231, 
+          "name": "expn-it.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 4.1231, 
+          "name": "wwwnanodesignpl.polska-firma.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 4.2426, 
+          "name": "tomaszpohl.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 4.2426, 
+          "name": "dir.edu.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 4.3589, 
+          "name": "www.codalej.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 4.3589, 
+          "name": "pogoda-poznan.pl"
+        }
+      ], 
+      "cluster_dom_count": 6083, 
+      "name": "212.91.7.33"
+    }, 
+    {
+      "bl_count": 0, 
+      "cc": "DE", 
+      "children": [
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 3.6056, 
+          "name": "www.gim8.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL,ZZ", 
+          "dist": 0.0, 
+          "name": "gim8.pl"
+        }
+      ], 
+      "cluster_dom_count": 2, 
+      "name": "62.146.68.19"
+    }, 
+    {
+      "bl_count": 1, 
+      "cc": "", 
+      "children": [
+        {
+          "bl": 0, 
+          "cc": "DE,PL,ZZ", 
+          "dist": 0.0, 
+          "name": "gim8.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 3.6056, 
+          "name": "www.gim8.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 3.873, 
+          "name": "kafejki.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 3.873, 
+          "name": "paint.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 3.873, 
+          "name": "enutka.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 3.873, 
+          "name": "uch.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 3.873, 
+          "name": "gur.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 4.1231, 
+          "name": "odblokuj.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 4.1231, 
+          "name": "wsad.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 4.1231, 
+          "name": "grostad.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 4.1231, 
+          "name": "dun.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 4.1231, 
+          "name": "www.hiro.radicaltoys.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 4.1231, 
+          "name": "bhpszczecin.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 4.1231, 
+          "name": "blueline.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 4.1231, 
+          "name": "expn-it.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 4.1231, 
+          "name": "www.tran.turboseo.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 4.1231, 
+          "name": "3dmark.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 4.1231, 
+          "name": "uwolnicmatke.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 4.1231, 
+          "name": "jakpowiekszycpenisa.com.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 4.1231, 
+          "name": "malymjachtem.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 4.1231, 
+          "name": "videoteka.com.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 4.1231, 
+          "name": "druki-wielkoformatowe.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 4.2426, 
+          "name": "tomaszpohl.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 4.2426, 
+          "name": "dir.edu.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,PL", 
+          "dist": 4.3589, 
+          "name": "opel.radicaltoys.pl"
+        }
+      ], 
+      "cluster_dom_count": 2525, 
+      "name": "Combined RHIP Clusters"
+    }
+  ]
+}

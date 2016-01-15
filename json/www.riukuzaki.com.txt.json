@@ -1,0 +1,1022 @@
+{
+  "children": [
+    {
+      "bl_count": 0, 
+      "cc": "CH", 
+      "children": [
+        {
+          "bl": 0, 
+          "cc": "CH,IE,GB,US,BS", 
+          "dist": 8.775, 
+          "name": "lilyandmarshallselltheirstuff.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "CH,VG,DE,US,LU,BS", 
+          "dist": 25.5539, 
+          "name": "mail.b-io.co"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "CH,NL,DE,US,GB,BS", 
+          "dist": 0.0, 
+          "name": "www.riukuzaki.com"
+        }
+      ], 
+      "cluster_dom_count": 3, 
+      "name": "141.8.225.61"
+    }, 
+    {
+      "bl_count": 0, 
+      "cc": "GB", 
+      "children": [
+        {
+          "bl": 0, 
+          "cc": "CH,NL,DE,US,GB,BS", 
+          "dist": 0.0, 
+          "name": "www.riukuzaki.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.0, 
+          "name": "www.intervisiongroup.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.0, 
+          "name": "www.justequine.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.0828, 
+          "name": "www.streamhq.tv"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.0828, 
+          "name": "www.largeyogamats.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.1644, 
+          "name": "xn--igbi4akz.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.1644, 
+          "name": "cxl.info"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.1644, 
+          "name": "xn----zmcajdi2c8a2gqax9b.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.245, 
+          "name": "xn----nmcqbad1fc1mfet.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.245, 
+          "name": "xn--qgbm2dva.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.245, 
+          "name": "www.endthesilence.org"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.245, 
+          "name": "www.jobintelligence.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.245, 
+          "name": "roundtripping.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,BS", 
+          "dist": 6.245, 
+          "name": "www.businesstimeline.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.245, 
+          "name": "xn----ymcabdit4h9don2c.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "VG,GB,US,BS", 
+          "dist": 6.245, 
+          "name": "bcza.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.245, 
+          "name": "xn--5ckueb2a1573cguh.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.245, 
+          "name": "xn--4dbic7bb9b.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.245, 
+          "name": "xn----ymcbac0a8an4mfdb.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.245, 
+          "name": "xn--mgbaagdej5bcs7w.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.245, 
+          "name": "xn--mgbead7akd3c3fgd6c.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.245, 
+          "name": "xn----xmcbaababcrfe5n9f0aiut0f.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.245, 
+          "name": "xn--fmininbio-b4a.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.245, 
+          "name": "xn--mgbexjeu9gc.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.245, 
+          "name": "ftp.lawman.com"
+        }
+      ], 
+      "cluster_dom_count": 142, 
+      "name": "176.74.176.167"
+    }, 
+    {
+      "bl_count": 0, 
+      "cc": "GB", 
+      "children": [
+        {
+          "bl": 0, 
+          "cc": "DE,GB,US,BS", 
+          "dist": 7.6158, 
+          "name": "onthenews.org"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,GB,US,BS", 
+          "dist": 7.2801, 
+          "name": "littlegdesign.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "CH,DE,US,GB,BS,IE", 
+          "dist": 7.874, 
+          "name": "www.partysexmag.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "CH,DE,GB,US,BS", 
+          "dist": 7.4833, 
+          "name": "womenindomesticviolence.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,GB,US,BS", 
+          "dist": 7.0, 
+          "name": "www.littlegdesign.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "CH,NL,DE,US,GB,BS", 
+          "dist": 0.0, 
+          "name": "www.riukuzaki.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "CH,VG,DE,US,GB,BS", 
+          "dist": 6.9282, 
+          "name": "www.ringtonethrone.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "VG,DE,GB,US,BS", 
+          "dist": 7.2801, 
+          "name": "pounder.org"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "VG,GB,US,BS", 
+          "dist": 6.6332, 
+          "name": "aboutaddictions.com"
+        }
+      ], 
+      "cluster_dom_count": 9, 
+      "name": "176.74.176.168"
+    }, 
+    {
+      "bl_count": 0, 
+      "cc": "GB", 
+      "children": [
+        {
+          "bl": 0, 
+          "cc": "CH,NL,DE,US,GB,BS", 
+          "dist": 0.0, 
+          "name": "www.riukuzaki.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.0, 
+          "name": "www.intervisiongroup.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.245, 
+          "name": "roundtripping.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US", 
+          "dist": 6.4807, 
+          "name": "www.tabletspcsale.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "CA,GB,US,BS", 
+          "dist": 6.4807, 
+          "name": "www.vebo.co"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "CH,GB,US,BS", 
+          "dist": 6.4807, 
+          "name": "ariseadobeconnect.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "KY,GB,US,BS", 
+          "dist": 6.4807, 
+          "name": "www.donnyworld.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.5574, 
+          "name": "ww.ttm.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.5574, 
+          "name": "lms.ttm.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "CH,DE,GB,US,BS", 
+          "dist": 6.6332, 
+          "name": "www.gallerycrush.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US", 
+          "dist": 6.6332, 
+          "name": "ims.ttm.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,GB,US,BS", 
+          "dist": 6.6332, 
+          "name": "www.ttm.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "CH,DE,GB,US,BS", 
+          "dist": 6.7082, 
+          "name": "www.dwi-tv.net"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "KY,GB,US,BS", 
+          "dist": 6.7823, 
+          "name": "donnyworld.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "CH,DE,GB,US,BS", 
+          "dist": 6.7823, 
+          "name": "www.conozcaelfuturo.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "CH,DE,GB,US,BS", 
+          "dist": 6.7823, 
+          "name": "www.womenindomesticviolence.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "CA,VG,GB,US,BS", 
+          "dist": 6.8557, 
+          "name": "www.vell.co"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "KY,GB,US", 
+          "dist": 6.9282, 
+          "name": "eduteam.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "KY,GB,US", 
+          "dist": 6.9282, 
+          "name": "www.medicalcoder.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "CA,GB,US,BS", 
+          "dist": 7.0, 
+          "name": "zhao.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US", 
+          "dist": 7.0, 
+          "name": "caddyquote.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "CH,VG,DE,US,GB,BS", 
+          "dist": 7.0711, 
+          "name": "www.ringtonethrone.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 7.0711, 
+          "name": "www.shadowlife.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "CH,NL,GB,US,BS", 
+          "dist": 7.1414, 
+          "name": "www.www33.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "CH,DE,GB,US,BS", 
+          "dist": 7.2111, 
+          "name": "www.canibaisereis.com"
+        }
+      ], 
+      "cluster_dom_count": 38, 
+      "name": "176.74.176.178"
+    }, 
+    {
+      "bl_count": 0, 
+      "cc": "GB", 
+      "children": [
+        {
+          "bl": 0, 
+          "cc": "CH,NL,DE,US,GB,BS", 
+          "dist": 0.0, 
+          "name": "www.riukuzaki.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.0, 
+          "name": "www.intervisiongroup.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.0, 
+          "name": "www.justequine.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.0828, 
+          "name": "www.largeyogamats.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.0828, 
+          "name": "www.streamhq.tv"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.1644, 
+          "name": "www.itsthelawlegalservices.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.1644, 
+          "name": "cxl.info"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.1644, 
+          "name": "www.indifferences.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.1644, 
+          "name": "www.reshapingyourself.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.245, 
+          "name": "livebytherules.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.245, 
+          "name": "www.simplestepbystep.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.245, 
+          "name": "www.gettingpaid.net"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.245, 
+          "name": "wheim.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.245, 
+          "name": "www.theothersideofme.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,GB,US,BS", 
+          "dist": 6.3246, 
+          "name": "how-to-grow-taller.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.4031, 
+          "name": "domesticabuseprevention.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.4031, 
+          "name": "www.doeschocolatecauseacne.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.4031, 
+          "name": "www.companycaterers.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.4031, 
+          "name": "startravel.org"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.4031, 
+          "name": "tradingassistant.net"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.4031, 
+          "name": "www.keepusinformed.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.4031, 
+          "name": "www.wwe-wallpapers.info"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.4807, 
+          "name": "slippers.us"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.4807, 
+          "name": "www.solarishomecare.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "KY,GB,US,BS", 
+          "dist": 6.4807, 
+          "name": "www.donnyworld.com"
+        }
+      ], 
+      "cluster_dom_count": 95, 
+      "name": "176.74.176.179"
+    }, 
+    {
+      "bl_count": 0, 
+      "cc": "US", 
+      "children": [
+        {
+          "bl": 0, 
+          "cc": "CH,NL,DE,US,GB,BS", 
+          "dist": 0.0, 
+          "name": "www.riukuzaki.com"
+        }
+      ], 
+      "cluster_dom_count": 1, 
+      "name": "199.115.112.143"
+    }, 
+    {
+      "bl_count": 0, 
+      "cc": "BS", 
+      "children": [
+        {
+          "bl": 0, 
+          "cc": "PL,DE,GB,US,BS", 
+          "dist": 8.0, 
+          "name": "smmp.org"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US,DE,GB,PL,BS", 
+          "dist": 7.2801, 
+          "name": "www.smmp.org"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "CH,GB,US,BS", 
+          "dist": 6.7082, 
+          "name": "stores.eaby.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,US,CZ,GB,BS,PL", 
+          "dist": 7.9373, 
+          "name": "www.prezentacja.fotoprogram.pl"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "CA,DE,PL,US,BS", 
+          "dist": 8.3666, 
+          "name": "webpraca.net"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "CH,NL,DE,US,GB,BS", 
+          "dist": 0.0, 
+          "name": "www.riukuzaki.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.245, 
+          "name": "www.jobintelligence.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.4807, 
+          "name": "abc-porno.com"
+        }
+      ], 
+      "cluster_dom_count": 8, 
+      "name": "208.87.35.103"
+    }, 
+    {
+      "bl_count": 1, 
+      "cc": "BS", 
+      "children": [
+        {
+          "bl": 0, 
+          "cc": "CH,NL,DE,US,GB,BS", 
+          "dist": 0.0, 
+          "name": "www.riukuzaki.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.0, 
+          "name": "www.justequine.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.0828, 
+          "name": "www.streamhq.tv"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.1644, 
+          "name": "xn--igbi4akz.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "TR,GB,BS", 
+          "dist": 6.245, 
+          "name": "www.androplus.net"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "TR,GB,BS", 
+          "dist": 6.245, 
+          "name": "www.webtasarimservisi.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "TR,GB,BS", 
+          "dist": 6.245, 
+          "name": "www.oyunum.biz"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.245, 
+          "name": "www.moorearesort.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "VG,GB,US,BS", 
+          "dist": 6.245, 
+          "name": "www.beuco.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "VG,GB,US,BS", 
+          "dist": 6.245, 
+          "name": "bcza.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "VG,GB,US,BS", 
+          "dist": 6.3246, 
+          "name": "www.bumcmedicine.org"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "VG,GB,US,BS", 
+          "dist": 6.3246, 
+          "name": "www.tukindesign.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,GB,US,BS", 
+          "dist": 6.3246, 
+          "name": "how-to-grow-taller.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "VG,GB,US,BS", 
+          "dist": 6.3246, 
+          "name": "www.pingceleb.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,GB,US,BS", 
+          "dist": 6.3246, 
+          "name": "www.fotofinder.org"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "VG,GB,US,BS", 
+          "dist": 6.3246, 
+          "name": "www.enry.org"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "TR,GB,BS", 
+          "dist": 6.3246, 
+          "name": "www.hdsikisizle.net"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.4031, 
+          "name": "www.wwe-wallpapers.info"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "VG,GB,US,BS", 
+          "dist": 6.4031, 
+          "name": "www.clusterheadachetreatment.org"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.4807, 
+          "name": "www.iitglobal.org"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "CH,GB,US,BS", 
+          "dist": 6.4807, 
+          "name": "ariseadobeconnect.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US,BS", 
+          "dist": 6.5574, 
+          "name": "xn--ugbafn3h.net"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US,BS", 
+          "dist": 6.5574, 
+          "name": "www.xn--mgbfldm54g.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "TR,GB,US,BS", 
+          "dist": 6.5574, 
+          "name": "blog.androplus.net"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "US,BS", 
+          "dist": 6.5574, 
+          "name": "xn--h1afd4a4b6c.net"
+        }
+      ], 
+      "cluster_dom_count": 98, 
+      "name": "208.87.35.104"
+    }, 
+    {
+      "bl_count": 0, 
+      "cc": "US", 
+      "children": [
+        {
+          "bl": 0, 
+          "cc": "CH,NL,DE,US,GB,BS", 
+          "dist": 0.0, 
+          "name": "www.riukuzaki.com"
+        }
+      ], 
+      "cluster_dom_count": 1, 
+      "name": "50.21.182.31"
+    }, 
+    {
+      "bl_count": 0, 
+      "cc": "US", 
+      "children": [
+        {
+          "bl": 0, 
+          "cc": "CH,NL,DE,US,GB,BS", 
+          "dist": 0.0, 
+          "name": "www.riukuzaki.com"
+        }
+      ], 
+      "cluster_dom_count": 1, 
+      "name": "74.208.146.193"
+    }, 
+    {
+      "bl_count": 0, 
+      "cc": "US", 
+      "children": [
+        {
+          "bl": 0, 
+          "cc": "CH,NL,DE,US,GB,BS", 
+          "dist": 0.0, 
+          "name": "www.riukuzaki.com"
+        }
+      ], 
+      "cluster_dom_count": 1, 
+      "name": "74.208.248.97"
+    }, 
+    {
+      "bl_count": 0, 
+      "cc": "DE", 
+      "children": [
+        {
+          "bl": 0, 
+          "cc": "CH,NL,DE,US,GB,BS", 
+          "dist": 0.0, 
+          "name": "www.riukuzaki.com"
+        }
+      ], 
+      "cluster_dom_count": 1, 
+      "name": "82.165.245.22"
+    }, 
+    {
+      "bl_count": 0, 
+      "cc": "NL", 
+      "children": [
+        {
+          "bl": 0, 
+          "cc": "CH,NL,DE,US,GB,BS", 
+          "dist": 0.0, 
+          "name": "www.riukuzaki.com"
+        }
+      ], 
+      "cluster_dom_count": 1, 
+      "name": "94.75.201.100"
+    }, 
+    {
+      "bl_count": 0, 
+      "cc": "", 
+      "children": [
+        {
+          "bl": 0, 
+          "cc": "CH,NL,DE,US,GB,BS", 
+          "dist": 0.0, 
+          "name": "www.riukuzaki.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.0, 
+          "name": "www.justequine.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.0828, 
+          "name": "www.largeyogamats.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.0828, 
+          "name": "www.streamhq.tv"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.1644, 
+          "name": "www.itsthelawlegalservices.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.1644, 
+          "name": "www.reshapingyourself.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.1644, 
+          "name": "xn----zmcajdi2c8a2gqax9b.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.1644, 
+          "name": "cxl.info"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.1644, 
+          "name": "xn--igbi4akz.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.1644, 
+          "name": "www.indifferences.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.245, 
+          "name": "xn--fmininbio-b4a.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.245, 
+          "name": "xn----xmcbaababcrfe5n9f0aiut0f.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.245, 
+          "name": "xn----nmcqbad1fc1mfet.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.245, 
+          "name": "giveaway.mobi"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.245, 
+          "name": "xn----ymcabdit4h9don2c.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.245, 
+          "name": "animators.info"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.245, 
+          "name": "xn--e-bger-dya.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.245, 
+          "name": "livebytherules.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,BS", 
+          "dist": 6.245, 
+          "name": "www.businesstimeline.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.245, 
+          "name": "xn--4dbic7bb9b.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.245, 
+          "name": "www.gettingpaid.net"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.245, 
+          "name": "www.moorearesort.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.245, 
+          "name": "xn--qgbm2dva.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "GB,US,BS", 
+          "dist": 6.245, 
+          "name": "commentlink.com"
+        }, 
+        {
+          "bl": 0, 
+          "cc": "DE,GB,US,BS", 
+          "dist": 6.245, 
+          "name": "how-to-grow-taller.com"
+        }
+      ], 
+      "cluster_dom_count": 129, 
+      "name": "Combined RHIP Clusters"
+    }
+  ]
+}
