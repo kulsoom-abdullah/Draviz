@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+.node {
+  cursor: move;
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+.node.fixed {
+    fill: #f00;
+}
+
+.link {
+  stroke: #999;
+  stroke-opacity: .6;
+}
+
+</style>
+
+<head>
+    <title>Doms distance (Kmeans) for rghost.ru</title>
+<script type="text/javascript" src="d3/d3.min.js"></script>
+
+</head>
+
+<body>
+<script type="text/javascript">
+    
+//using local d3 file is not working, nothing shows up.
+
+
+//Size of region to render on
+var width = 1000//960,
+    height = 600;//500
+
+function getRandomArbitary (min, max) {
+    return Math.random() * (max - min) + min;
+}
+
+//D3 force directed layout
+//Try playing with the charge and link distance
+var force = d3.layout.force()
+    .charge(-100)
+    //.linkDistance(80)
+    //.linkStrength(function(a) { return ((a.dist*a.dist)+70);})
+    //.console.log(a.distance)
+    .linkDistance((getRandomArbitary(0,1)*300)+30)
+    //.console.log(getRandomArbitary(30,300))
+    //.sort(function(a, b) { return b.dist-a.dist; })
+    //.on("tick", tick) //event ADDED
+    .size([width, height]);
+
+//Add our canvas
+var svg = d3.select("body").append("svg")
+    .attr("width", width)
+    .attr("height", height);
+
+
+//Select the miserables data ;)
+d3.json("json/rghost.ru.txtnodes.json", function(error, graph) {
+  force
+      .nodes(graph.nodes)
+      .links(graph.links)
+      //.linkDistance(function(a) { return ((a.dist)+70);})
+      //.linkStrength(function(d) { return Math.sqrt(d.distance);}) NAN
+      .start();
+
+//Add the links
+  var link = svg.selectAll(".link")
+      .data(graph.links)
+      .enter().append("line")
+      .attr("class", "link")
+      //.style("stroke-width", function(d) { return Math.sqrt(d.value); });
+        .style("stroke-width", 2);
+
+//Add the nodes
+  var node = svg.selectAll(".node")
+      .data(graph.nodes)
+      .enter().append("circle")
+      .attr("class", "node")
+      .attr("r", 5)
+      //.attr("r", function(d){ return Math.sqrt(d.coolness);})
+      //.attr("stroke", "#ffffff")
+      //.on("dblclick", dblclick)-dont need
+      .call(force.drag)
+        .style("stroke-width", 2)
+        .style("stroke", function(d) { if (d.bl==1) {return d3.rgb(203,24,29) }
+               else {return d3.rgb(0,109,44)};})
+        .style("fill", d3.rgb(246,232,195)); //});
+        //.style("border", 5);//function(d) {
+             //if (d.fixed==false) {return 4}; });
+
+        
+//  node.append("title")
+//      .attr("dx", 6)
+//        .text(function(d) {
+//              if (d.coolness>25) {return d.name}
+//              else    { return "TEST" }; });
+        
+ // node.append("text") //label
+ //       .attr("dx", 6)
+ //       .attr("dy", ".10em")
+ //       .text(function(d) { return d.name; });
+  
+ //add labels
+  var labels = svg.selectAll("text")
+        .data(graph.nodes)
+        .enter()
+        .append("text")
+        .attr({"x":function(d){return d.x;},
+              "y":function(d){return d.y;}})
+//        .text(function(d) {
+//              if (d.coolness>25 && d.name.length > 6) {return d.name.substring(0,6)+'...'}
+//              if (d.coolness>25 && d.name.length < 6) {return d.name}
+//              else    { return null } ;})
+        .text(function(d) { if(d.cc) {return d.name+" cc:"+d.cc }
+              else {return d.name};}) //use CC seperately REPLACE WHEN DONE
+        .style("font-size","10px")
+        .call(force.drag);
+  
+
+        
+//Update stuff for animation:
+//   This takes the physics simulation for the force directed graph and
+//   sets the location of the nodes and edges to the new positions
+
+force.on("tick", function(e) {
+
+         // soft-center the root node
+         var k = .01;
+         var nodes = force.nodes();
+         nodes[0].y += (height/2 - nodes[0].y) * k;
+         nodes[0].x += (width/2 - nodes[0].x) * k;
+//         nodes[0].fixed=true;
+//
+         //force.linkStrength(function(d) { return d.distance; })
+         //link.distance = d.distance screws it up
+         //force.linkDistance(function(a) { return ((a.distance*a.distance)+70);})
+         
+    link.attr("x1", function(d) { return d.source.x; })
+        .attr("y1", function(d) { return d.source.y; })
+        .attr("x2", function(d) { return d.target.x; })
+        .attr("y2", function(d) { return d.target.y; });
+
+    node.attr("cx", function(d) { return d.x; })
+        .attr("cy", function(d) { return d.y; });
+           
+    labels.attr("x", function(d) { return d.x; })        // **NEW**
+           .attr("y", function(d) { return d.y; });
+
+         
+//           if(d.source==0)
+//           {d.fixed=true
+//           d.x=width/2
+//           d.y=height/2} //hope this keeps root node static
+
+  });
+
+function getRandomArbitary (min, max) {
+        //var num = (Math.random() * (max - min) + min);
+        var num = (Math.random() * (max - min +1)) + min;
+        return num;
+        //return (Math.random() * (max - min +1)) + min);
+}
+  
+        // action to take on mouse double click
+// function dblclick(d) {  //color, stroke not working.
+//        //var pinned  = d3.select(this).attr("stroke");
+//        //var pinning = d3.select(this)
+//        
+//        console.log("dblclick")
+//        console.log(this)
+//        console.log(d3.select(this));
+//        //d3.select(this).style("fill", "black")
+//        if (d.fixed == true) { //node clicked is pinned so we need to unpin
+//        //if (pinned == "#000000") { //pinned state
+//        console.log("pinned")
+//        //console.log(pinned)
+//        console.log(this)
+//        console.log(d3.select(this))
+//        
+//        //pinning.selectAll(".node")
+//        d3.select(this)
+//        .style("stroke", "#ffffff")
+//        //.attr("stroke", "#ffffff")
+//        //.attr("r", function(d){ return Math.sqrt(d.coolness);}) WORKS
+//        .style("stroke-width", 1.5)
+//        .style('stroke-dasharray', '0')
+//        .classed("fixed", d.fixed = false);//now unpin
+//        } else { //else not pinned state
+//        console.log("not pinned")
+//        //console.log(pinned)
+//        console.log(this)
+//        console.log(d3.select(this))
+//        
+//        d3.select(this)
+//        //pinning.selectAll(".node")
+//        .attr("stroke-fill", "black")
+//        .style("stroke", "#000000")
+//        .style("stroke-width", 3)
+//        .style('stroke-dasharray', '2,5')
+//        //.attr("r", 30) WORKS
+//        .classed("fixed", d.fixed = true);
+//        }
+//
+//
+//        }//end dbl click
+        
+        
+        
+});
+
+</script>
+
