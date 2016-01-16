@@ -27,7 +27,7 @@ To find their new malicious domain names, we leverage DNS agility for reputation
 3. ￼pDNSDB - Related Historic Domain Names
   * Domain names that have ever resolved to an IP address
 
-#####Cluster method
+##### Cluster method
 * Features.
  * Total IPs & networks.
  * IP address, BGP prefix, ASN, country code.
@@ -37,7 +37,8 @@ To find their new malicious domain names, we leverage DNS agility for reputation
  * Identify cluster with domain of interest.
  * Label blacklist domains.
  * Euclidean distance from domains in cluster.
-#####Initial evaluation led analyst to correctly classify approximately 80% of the “unlabeled” domains
+ 
+##### Initial evaluation led analyst to correctly classify approximately 80% of the “unlabeled” domains
  * Generally,clustering and visualization is a good approach for this problem:
    * Only mechanism to communicate & analyze inordinately large, complex structures, i.e. IP networks
     * More levels of indirection exponen2ally increases the number of nodes in the graph
