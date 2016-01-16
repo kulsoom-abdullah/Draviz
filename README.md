@@ -1,4 +1,6 @@
-Draviz
+#DRAVis
+###Visualizing Domain Reputa2on & A5ribu2on
+#####Terry Nelms, Kulsoom Abdullah, & Joshua Kimball
 ======
 I audited a course at Georgia Tech called Data and Visual Analytics.  This includes code from the group project that Spring 2014.
 My contributions were the age_country.py feature, and the d3 visualization.
