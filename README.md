@@ -24,15 +24,15 @@ To find their new malicious domain names, we leverage DNS agility for reputation
     * Enterprises
 
 2. ￼pDNSDB - Related Historic IP Addresses
- * IP addresses that a domain has ever resolved to
+  * IP addresses that a domain has ever resolved to
 3. ￼pDNSDB - Related Historic Domain Names
- * Domain names that have ever resolved to an IP address
+  * Domain names that have ever resolved to an IP address
 
-Cluster method
-•  Features.
+#####Cluster method
+* Features.
 –  Total IPs & networks.
 –  IP address, BGP prefix, ASN, country code.
-•  Algorithm. –  K-means.
+* Algorithm. –  K-means.
 –  sparse matrix.
 •  Domain annotation.
 –  Identify cluster with domain of interest.
