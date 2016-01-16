@@ -1,0 +1,2097 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+    
+
+.node circle {
+    fill: #fff;
+    stroke: steelblue;
+    stroke-width: 1.5px;
+}
+
+.node text {
+    font: 10px sans-serif;
+}
+
+.link {
+    fill: none;
+    stroke: #ccc;
+    stroke-width: 1.5px;
+}
+
+    </style>
+<body>
+        <title>DRAVIZ</title>
+    <script src="d3/d3.min.js"></script>
+    <script type="text/javascript" src="d3/colorbrewer.v1.min.js"></script>
+    <script>
+
+
+var treeData = [
+                {
+                "name": "rghost.ru",
+                
+                "children": [
+                             {
+                             "name": "108.162.192.0/24",
+                             "bl_count": 1,
+                             "len_ips":1,
+                             "cluster_dom_count": 32,
+                             "bl_count": 1,
+                             "bl": 1,
+                             "cc": "US",
+                             "children":[
+                                         
+                                         {
+                                         "bl_count": 1,
+                                         "cc": "US",
+                                         "children": [
+                                                      {
+                                                      "bl": 1,
+                                                      "cc": "EU,RU,US",
+                                                      "dist": 0.0,
+                                                      "name": "rghost.ru"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "US",
+                                                      "dist": 7.0,
+                                                      "name": "ukmoneyday.com"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "US",
+                                                      "dist": 7.0711,
+                                                      "name": "artram.info"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "US",
+                                                      "dist": 7.0711,
+                                                      "name": "congresoabierto.cl"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "US",
+                                                      "dist": 7.0711,
+                                                      "name": "cf-protected.q.na"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "US",
+                                                      "dist": 7.0711,
+                                                      "name": "cf-protected.autographedcollegefootballphotos.info"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "US",
+                                                      "dist": 7.0711,
+                                                      "name": "emiamo.info"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "US",
+                                                      "dist": 7.0711,
+                                                      "name": "www.delaysprey.org"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "US",
+                                                      "dist": 7.1414,
+                                                      "name": "cf-protected-www.rojastaxes.com.cdn.cloudflare.net"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "US",
+                                                      "dist": 7.4833,
+                                                      "name": "installcontainerplace.info"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "US",
+                                                      "dist": 7.4833,
+                                                      "name": "www2.indolombok.com"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "US",
+                                                      "dist": 7.5498,
+                                                      "name": "remotedebug.org"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "US",
+                                                      "dist": 7.5498,
+                                                      "name": "dailydoggies.info"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "US",
+                                                      "dist": 7.5498,
+                                                      "name": "cf-protected.incarte.altervista.org.cdn.cloudflare.net"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "US",
+                                                      "dist": 7.6811,
+                                                      "name": "cf-protected-www.analorgasm.biz.cdn.cloudflare.net"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "US",
+                                                      "dist": 7.746,
+                                                      "name": "cloudthumbs.com"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "CA,US",
+                                                      "dist": 7.8102,
+                                                      "name": "stamforddirect.info"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "TR,US",
+                                                      "dist": 7.8102,
+                                                      "name": "delaysprey.org"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "US",
+                                                      "dist": 7.874,
+                                                      "name": "www.goesselhouse.com"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "BG,US",
+                                                      "dist": 7.874,
+                                                      "name": "img.infinitymu.net"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "CA,US",
+                                                      "dist": 7.874,
+                                                      "name": "trueride.info"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "SG,US",
+                                                      "dist": 7.874,
+                                                      "name": "theprofitjam.com"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "US",
+                                                      "dist": 7.9373,
+                                                      "name": "slenderiizwithslenderiix.com"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "US",
+                                                      "dist": 8.0,
+                                                      "name": "iscrapple.info"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "US",
+                                                      "dist": 8.0,
+                                                      "name": "mhkprint.com"
+                                                      }
+                                                      ],
+                                         "cluster_dom_count": 32,
+                                         "name": "108.162.192.167"
+                                         }
+                                         ]
+                             },
+                             {
+                             "name": "108.162.193.0/24",
+                             "bl": 1,
+                             "bl_count": 1,
+                             "cc": "US",
+                             "len_ips":1,
+                             "cluster_dom_count": 29,
+                             "children":[
+                                         {
+                                         "bl_count": 1,
+                                         "cc": "US",
+                                         "children": [
+                                                      {
+                                                      "bl": 1,
+                                                      "cc": "EU,RU,US",
+                                                      "dist": 0.0,
+                                                      "name": "rghost.ru"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "US",
+                                                      "dist": 7.0,
+                                                      "name": "ukmoneyday.com"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "US",
+                                                      "dist": 7.0711,
+                                                      "name": "artram.info"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "US",
+                                                      "dist": 7.0711,
+                                                      "name": "congresoabierto.cl"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "US",
+                                                      "dist": 7.0711,
+                                                      "name": "cf-protected.q.na"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "US",
+                                                      "dist": 7.0711,
+                                                      "name": "cf-protected.autographedcollegefootballphotos.info"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "US",
+                                                      "dist": 7.0711,
+                                                      "name": "emiamo.info"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "US",
+                                                      "dist": 7.0711,
+                                                      "name": "www.delaysprey.org"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "US",
+                                                      "dist": 7.1414,
+                                                      "name": "cf-protected-www.rojastaxes.com.cdn.cloudflare.net"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "US",
+                                                      "dist": 7.4833,
+                                                      "name": "installcontainerplace.info"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "US",
+                                                      "dist": 7.4833,
+                                                      "name": "www2.indolombok.com"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "US",
+                                                      "dist": 7.5498,
+                                                      "name": "remotedebug.org"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "US",
+                                                      "dist": 7.5498,
+                                                      "name": "dailydoggies.info"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "US",
+                                                      "dist": 7.5498,
+                                                      "name": "cf-protected.incarte.altervista.org.cdn.cloudflare.net"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "US",
+                                                      "dist": 7.6811,
+                                                      "name": "cf-protected-www.analorgasm.biz.cdn.cloudflare.net"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "US",
+                                                      "dist": 7.746,
+                                                      "name": "cloudthumbs.com"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "CA,US",
+                                                      "dist": 7.8102,
+                                                      "name": "stamforddirect.info"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "TR,US",
+                                                      "dist": 7.8102,
+                                                      "name": "delaysprey.org"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "US",
+                                                      "dist": 7.874,
+                                                      "name": "www.goesselhouse.com"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "BG,US",
+                                                      "dist": 7.874,
+                                                      "name": "img.infinitymu.net"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "CA,US",
+                                                      "dist": 7.874,
+                                                      "name": "trueride.info"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "SG,US",
+                                                      "dist": 7.874,
+                                                      "name": "theprofitjam.com"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "US",
+                                                      "dist": 7.9373,
+                                                      "name": "slenderiizwithslenderiix.com"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "US",
+                                                      "dist": 8.0,
+                                                      "name": "iscrapple.info"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "US",
+                                                      "dist": 8.0,
+                                                      "name": "mhkprint.com"
+                                                      }
+                                                      ],
+                                         "cluster_dom_count": 29,
+                                         "name": "108.162.193.167"
+                                         }
+                                         ]
+                             },
+                             {
+                             "name": "108.162.198.0/24",
+                             "bl": 1,
+                             "bl_count": 2,
+                             "len_ips":2,
+                             "cluster_dom_count": 50,
+                             "cc": "US",
+                             "children":[
+                                         {
+                                         "bl_count": 1,
+                                         "cc": "US",
+                                         "children": [
+                                                      {
+                                                      "bl": 1,
+                                                      "cc": "EU,RU,US",
+                                                      "dist": 0.0,
+                                                      "name": "rghost.ru"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "US",
+                                                      "dist": 7.0711,
+                                                      "name": "artram.info"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "US",
+                                                      "dist": 7.0711,
+                                                      "name": "ukmoneyday.com"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "US",
+                                                      "dist": 7.0711,
+                                                      "name": "congresoabierto.cl"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "US",
+                                                      "dist": 7.0711,
+                                                      "name": "cf-protected.q.na"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "US",
+                                                      "dist": 7.0711,
+                                                      "name": "cf-protected.autographedcollegefootballphotos.info"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "US",
+                                                      "dist": 7.0711,
+                                                      "name": "emiamo.info"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "US",
+                                                      "dist": 7.0711,
+                                                      "name": "www.delaysprey.org"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "US",
+                                                      "dist": 7.2111,
+                                                      "name": "cf-protected-www.rojastaxes.com.cdn.cloudflare.net"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "US",
+                                                      "dist": 7.4833,
+                                                      "name": "www.realestateofmacomb.com"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "US",
+                                                      "dist": 7.4833,
+                                                      "name": "cf-protected-www.gamers.it.cdn.cloudflare.net"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "US",
+                                                      "dist": 7.4833,
+                                                      "name": "cf-protected-www.egy-law.com.cdn.cloudflare.net"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "US",
+                                                      "dist": 7.4833,
+                                                      "name": "zhyurikha.org"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "US",
+                                                      "dist": 7.4833,
+                                                      "name": "cf-protected-www.wrightds.com.cdn.cloudflare.net"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "US",
+                                                      "dist": 7.4833,
+                                                      "name": "www2.indolombok.com"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "US",
+                                                      "dist": 7.5498,
+                                                      "name": "dailydoggies.info"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "US",
+                                                      "dist": 7.6158,
+                                                      "name": "remotedebug.org"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "US",
+                                                      "dist": 7.6158,
+                                                      "name": "www.gamebrew.com"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "US",
+                                                      "dist": 7.6158,
+                                                      "name": "cf-protected.incarte.altervista.org.cdn.cloudflare.net"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "US",
+                                                      "dist": 7.6158,
+                                                      "name": "cf-protected.centrolaser.altervista.org.cdn.cloudflare.net"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "US",
+                                                      "dist": 7.746,
+                                                      "name": "cloudthumbs.com"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "US",
+                                                      "dist": 7.746,
+                                                      "name": "cf-protected-www.analorgasm.biz.cdn.cloudflare.net"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "US",
+                                                      "dist": 7.746,
+                                                      "name": "realestateofmacomb.com"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "US",
+                                                      "dist": 7.746,
+                                                      "name": "devianttraveler.com"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "ES,US",
+                                                      "dist": 7.8102,
+                                                      "name": "grupodinamika.info"
+                                                      }
+                                                      ],
+                                         "cluster_dom_count": 47,
+                                         "name": "108.162.198.174"
+                                         
+                                         },
+                                         {
+                                         "bl_count": 1,
+                                         "cc": "US",
+                                         "children": [
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "US",
+                                                      "dist": 7.4833,
+                                                      "name": "cf-protected-www.newsqassim.com.cdn.cloudflare.net"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "US",
+                                                      "dist": 7.4833,
+                                                      "name": "api.heardontv.com"
+                                                      },
+                                                      {
+                                                      "bl": 1,
+                                                      "cc": "EU,RU,US",
+                                                      "dist": 0.0,
+                                                      "name": "rghost.ru"
+                                                      }
+                                                      ],
+                                         "cluster_dom_count": 3,
+                                         "name": "108.162.198.221"
+                                         }
+                                         ]
+                             },
+                             {
+                             "name":"108.162.199.0/24",
+                             "bl": 1,
+                             "bl_count": 2,
+                             "len_ips":2,
+                             "cluster_dom_count": 94,
+                             "cc": "US",
+                             "children":[
+                                         
+                                         {
+                                         "bl_count": 1,
+                                         "cc": "US",
+                                         "children": [
+                                                      {
+                                                      "bl": 1,
+                                                      "cc": "EU,RU,US",
+                                                      "dist": 0.0,
+                                                      "name": "rghost.ru"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "US",
+                                                      "dist": 7.0711,
+                                                      "name": "artram.info"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "US",
+                                                      "dist": 7.0711,
+                                                      "name": "ukmoneyday.com"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "US",
+                                                      "dist": 7.0711,
+                                                      "name": "congresoabierto.cl"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "US",
+                                                      "dist": 7.0711,
+                                                      "name": "cf-protected.q.na"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "US",
+                                                      "dist": 7.0711,
+                                                      "name": "cf-protected.autographedcollegefootballphotos.info"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "US",
+                                                      "dist": 7.0711,
+                                                      "name": "emiamo.info"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "US",
+                                                      "dist": 7.0711,
+                                                      "name": "www.delaysprey.org"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "US",
+                                                      "dist": 7.2111,
+                                                      "name": "cf-protected-www.rojastaxes.com.cdn.cloudflare.net"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "US",
+                                                      "dist": 7.4833,
+                                                      "name": "www.realestateofmacomb.com"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "US",
+                                                      "dist": 7.4833,
+                                                      "name": "cf-protected-www.gamers.it.cdn.cloudflare.net"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "US",
+                                                      "dist": 7.4833,
+                                                      "name": "cf-protected-www.egy-law.com.cdn.cloudflare.net"
+                                                      },
+                                                      {
+                                                      "bl": 0,
+                                                      "cc": "US",
+                                                      "dist": 7.4833,
+                                                      "name": "zhyurikha.org"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.4833, 
+                                                      "name": "cf-protected-www.wrightds.com.cdn.cloudflare.net"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.4833, 
+                                                      "name": "www2.indolombok.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.5498, 
+                                                      "name": "dailydoggies.info"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.6158, 
+                                                      "name": "remotedebug.org"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.6158, 
+                                                      "name": "www.gamebrew.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.6158, 
+                                                      "name": "cf-protected.incarte.altervista.org.cdn.cloudflare.net"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.6158, 
+                                                      "name": "cf-protected.centrolaser.altervista.org.cdn.cloudflare.net"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.746, 
+                                                      "name": "cloudthumbs.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.746, 
+                                                      "name": "cf-protected-www.analorgasm.biz.cdn.cloudflare.net"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.746, 
+                                                      "name": "realestateofmacomb.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.746, 
+                                                      "name": "devianttraveler.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "ES,US", 
+                                                      "dist": 7.8102, 
+                                                      "name": "grupodinamika.info"
+                                                      }
+                                                      ],
+                                         "cluster_dom_count": 91, 
+                                         "name": "108.162.199.174"
+                                         }, 
+                                         {
+                                         "bl_count": 1, 
+                                         "cc": "US", 
+                                         "children": [
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.4833, 
+                                                      "name": "cf-protected-www.newsqassim.com.cdn.cloudflare.net"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.4833, 
+                                                      "name": "api.heardontv.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 1, 
+                                                      "cc": "EU,RU,US", 
+                                                      "dist": 0.0, 
+                                                      "name": "rghost.ru"
+                                                      }
+                                                      ],
+                                         "cluster_dom_count": 3, 
+                                         "name": "108.162.199.221"
+                                         
+                                         }
+                                         ],
+                             },
+                             {
+                             "name":"108.162.200.0/24",
+                             "bl": 1,
+                             "bl_count": 1,
+                             "cc": "US",
+                             "len_ips":1,
+                             "cluster_dom_count": 1,
+                             "children":[
+                                         {
+                                         "bl_count": 1, 
+                                         "cc": "US", 
+                                         "children": [
+                                                      {
+                                                      "bl": 1, 
+                                                      "cc": "EU,RU,US", 
+                                                      "dist": 0.0, 
+                                                      "name": "rghost.ru"
+                                                      }
+                                                      ],
+                                         "cluster_dom_count": 1, 
+                                         "name": "108.162.200.141"
+                                         }
+                                         ]
+                             }, 
+                             
+                             {
+                             "name":"108.162.207.0/24",
+                             "bl": 1,
+                             "bl_count": 1,
+                             "cc": "US",
+                             "cluster_dom_count": 1,
+                             "len_ips":1,
+                             "children":[
+                                         {
+                                         "bl_count": 1, 
+                                         "cc": "US", 
+                                         "children": [
+                                                      {
+                                                      "bl": 1, 
+                                                      "cc": "EU,RU,US", 
+                                                      "dist": 0.0, 
+                                                      "name": "rghost.ru"
+                                                      }
+                                                      ],
+                                         "cluster_dom_count": 1, 
+                                         "name": "108.162.207.189"
+                                         }
+                                         ],
+                             },
+                             {
+                             "name":"141.101.116.0/24",
+                             "bl": 1,
+                             "bl_count": 1,
+                             "cc": "EU",
+                             "cluster_dom_count": 2,
+                             "len_ips":1,
+                             "children":[
+                                         {
+                                         "bl_count": 1, 
+                                         "cc": "EU", 
+                                         "children": [
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "EU,DE,GB,US,VG", 
+                                                      "dist": 9.434, 
+                                                      "name": "davidpeatphoto.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 1, 
+                                                      "cc": "EU,RU,US", 
+                                                      "dist": 0.0, 
+                                                      "name": "rghost.ru"
+                                                      }
+                                                      ],
+                                         "cluster_dom_count": 2, 
+                                         "name": "141.101.116.187"
+                                         }
+                                         ],
+                             }, 
+                             {
+                             "name":"141.101.117.0/24",
+                             "bl": 1,
+                             "bl_count": 1,
+                             "cluster_dom_count": 2,
+                             "cc": "EU",
+                             "len_ips":1,
+                             "children":[ 
+                                         {
+                                         
+                                         "bl_count": 1, 
+                                         "cc": "EU", 
+                                         "children": [
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "EU,DE,GB,US,VG", 
+                                                      "dist": 9.434, 
+                                                      "name": "davidpeatphoto.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 1, 
+                                                      "cc": "EU,RU,US", 
+                                                      "dist": 0.0, 
+                                                      "name": "rghost.ru"
+                                                      }
+                                                      ],
+                                         "cluster_dom_count": 2, 
+                                         "name": "141.101.117.187"
+                                         }],
+                             },
+                             {
+                             "name":"141.101.124.0/24",
+                             "bl": 1,
+                             "bl_count": 1,
+                             "cluster_dom_count": 1,
+                             "cc": "EU",
+                             "len_ips":1,
+                             "children":[
+                                         {
+                                         "bl_count": 1, 
+                                         "cc": "EU", 
+                                         "children": [
+                                                      {
+                                                      "bl": 1, 
+                                                      "cc": "EU,RU,US", 
+                                                      "dist": 0.0, 
+                                                      "name": "rghost.ru"
+                                                      }
+                                                      ],
+                                         "cluster_dom_count": 1, 
+                                         "name": "141.101.124.189"
+                                         }]},
+                             {
+                             "name":"141.101.127.0/24",
+                             "bl": 1,
+                             "bl_count": 1,
+                             "cluster_dom_count": 1,
+                             "cc": "EU",
+                             "len_ips":1,
+                             "children":[
+                                         {
+                                         "bl_count": 1, 
+                                         "cc": "EU", 
+                                         "children": [
+                                                      {
+                                                      "bl": 1, 
+                                                      "cc": "EU,RU,US", 
+                                                      "dist": 0.0, 
+                                                      "name": "rghost.ru"
+                                                      }
+                                                      ],
+                                         "cluster_dom_count": 1, 
+                                         "name": "141.101.127.140"
+                                         }]},
+                             {
+                             "name":"204.194.237.0/24",
+                             "bl": 1,
+                             "bl_count": 30,
+                             "cluster_dom_count": 404,
+                             "cc": "US",
+                             "len_ips":1,
+                             "children":[
+                                         
+                                         {
+                                         "bl_count": 30, 
+                                         "cc": "US", 
+                                         "children": [
+                                                      {
+                                                      "bl": 1, 
+                                                      "cc": "EU,RU,US", 
+                                                      "dist": 0.0, 
+                                                      "name": "rghost.ru"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.2111, 
+                                                      "name": "www.gifwithsauce.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.4162, 
+                                                      "name": "www.monden.atat.ro"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.4162, 
+                                                      "name": "cdn-athena.cafemom.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.4162, 
+                                                      "name": "www.kabukicho-girls.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.4162, 
+                                                      "name": "www.hsselite.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.4162, 
+                                                      "name": "cdn.sc.rockstargames.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.4162, 
+                                                      "name": "www.advancedanime.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.4162, 
+                                                      "name": "www.gotopless.org"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.4162, 
+                                                      "name": "www.sport.atat.ro"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.4162, 
+                                                      "name": "pcdn.pornfanplace.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.4162, 
+                                                      "name": "images.tube.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.4162, 
+                                                      "name": "pic.welovetube.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.4162, 
+                                                      "name": "www.burningcamel.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.4162, 
+                                                      "name": "support.rockstargames.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.4833, 
+                                                      "name": "www.intensecontent.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.5498, 
+                                                      "name": "www.doujinbooru.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "NL,US", 
+                                                      "dist": 7.5498, 
+                                                      "name": "www.snappher.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "RU,US", 
+                                                      "dist": 7.6158, 
+                                                      "name": "i49.fastpic.ru"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "RU,US", 
+                                                      "dist": 7.6158, 
+                                                      "name": "cs413626.vk.me"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.6158, 
+                                                      "name": "touch.dailymotion.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.6158, 
+                                                      "name": "xxx.flagmantube.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.6158, 
+                                                      "name": "www.extremerestraints.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.6158, 
+                                                      "name": "www.xxxswim.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.6158, 
+                                                      "name": "profile-cdn.xvideos.com"
+                                                      }
+                                                      ],
+                                         "cluster_dom_count": 404, 
+                                         "name": "204.194.237.143"
+                                         }]},
+                             {
+                             "name":"208.69.32.0/24",
+                             "bl": 1,
+                             "bl_count": 5,
+                             "cluster_dom_count": 68,
+                             "cc": "US",
+                             "len_ips":1,
+                             "children":[
+                                         {
+                                         "bl_count": 5, 
+                                         "cc": "US", 
+                                         "children": [
+                                                      {
+                                                      "bl": 1, 
+                                                      "cc": "EU,RU,US", 
+                                                      "dist": 0.0, 
+                                                      "name": "rghost.ru"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.2111, 
+                                                      "name": "www.gifwithsauce.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 1, 
+                                                      "cc": "US", 
+                                                      "dist": 7.4162, 
+                                                      "name": "www.afcyhf.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.4162, 
+                                                      "name": "www.hsselite.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.4833, 
+                                                      "name": "www.intensecontent.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.4833, 
+                                                      "name": "media.chemistry.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.4833, 
+                                                      "name": "archives.awn.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.4833, 
+                                                      "name": "www.knobcreek.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "NL,US", 
+                                                      "dist": 7.5498, 
+                                                      "name": "www.snappher.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 1, 
+                                                      "cc": "NL,US", 
+                                                      "dist": 7.6158, 
+                                                      "name": "www.totallynsfw.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.6811, 
+                                                      "name": "www.makemeheal.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "NL,US", 
+                                                      "dist": 7.746, 
+                                                      "name": "good-fuck.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.746, 
+                                                      "name": "people2people.loveaccess.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.746, 
+                                                      "name": "www.pridesource.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.746, 
+                                                      "name": "www.freejanine.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 1, 
+                                                      "cc": "US", 
+                                                      "dist": 7.746, 
+                                                      "name": "www.blackpeoplemeet.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.746, 
+                                                      "name": "www.website-hit-counters.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "FR,US", 
+                                                      "dist": 7.8102, 
+                                                      "name": "thebustyblogsite.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "GB,US", 
+                                                      "dist": 7.8102, 
+                                                      "name": "m.izit.org"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "DE,US", 
+                                                      "dist": 7.8102, 
+                                                      "name": "www.etoday.ru"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "NL,US", 
+                                                      "dist": 7.8102, 
+                                                      "name": "crocostars.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.8102, 
+                                                      "name": "cunaads-trustage.liveserver.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "CZ,US", 
+                                                      "dist": 7.874, 
+                                                      "name": "ulozto.net"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.9373, 
+                                                      "name": "forums.s3x.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "EU,US", 
+                                                      "dist": 7.9373, 
+                                                      "name": "www.heretv.com"
+                                                      }
+                                                      ],
+                                         "cluster_dom_count": 68, 
+                                         "name": "208.69.32.143"
+                                         } ] },
+                             {
+                             "name":"217.199.208.0/20",
+                             "bl": 1,
+                             "bl_count": 3,
+                             "cluster_dom_count": 3,
+                             "cc": "RU",
+                             "len_ips":3,
+                             "children":[
+                                         {
+                                         "bl_count": 1, 
+                                         "cc": "RU", 
+                                         "children": [
+                                                      {
+                                                      "bl": 1, 
+                                                      "cc": "EU,RU,US", 
+                                                      "dist": 0.0, 
+                                                      "name": "rghost.ru"
+                                                      }
+                                                      ],
+                                         "cluster_dom_count": 1, 
+                                         "name": "217.199.218.100"
+                                         }, 
+                                         {
+                                         "bl_count": 1, 
+                                         "cc": "RU", 
+                                         "children": [
+                                                      {
+                                                      "bl": 1, 
+                                                      "cc": "EU,RU,US", 
+                                                      "dist": 0.0, 
+                                                      "name": "rghost.ru"
+                                                      }
+                                                      ],
+                                         "cluster_dom_count": 1, 
+                                         "name": "217.199.218.101"
+                                         }, 
+                                         {
+                                         "bl_count": 1, 
+                                         "cc": "RU", 
+                                         "children": [
+                                                      {
+                                                      "bl": 1, 
+                                                      "cc": "EU,RU,US", 
+                                                      "dist": 0.0, 
+                                                      "name": "rghost.ru"
+                                                      }
+                                                      ],
+                                         "cluster_dom_count": 1, 
+                                         "name": "217.199.218.103",
+                                         }]},
+                             {
+                             "name":"67.215.65.0/24",
+                             "bl": 1,
+                             "bl_count": 71,
+                             "cluster_dom_count": 682,
+                             "cc": "US",
+                             "len_ips":1,
+                             "children":[
+                                         
+                                         {
+                                         "bl_count": 71, 
+                                         "cc": "US", 
+                                         "children": [
+                                                      {
+                                                      "bl": 1, 
+                                                      "cc": "EU,RU,US", 
+                                                      "dist": 0.0, 
+                                                      "name": "rghost.ru"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.4162, 
+                                                      "name": "support.rockstargames.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.4162, 
+                                                      "name": "www.advancedanime.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.4833, 
+                                                      "name": "www.bestproxyunblock.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.5498, 
+                                                      "name": "www.doujinbooru.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.5498, 
+                                                      "name": "20102.swagster.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.5498, 
+                                                      "name": "www.supershareware.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.6158, 
+                                                      "name": "www.gunaxin.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 1, 
+                                                      "cc": "US", 
+                                                      "dist": 7.6158, 
+                                                      "name": "www.theuseful.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.6158, 
+                                                      "name": "www.inkedmag.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.6158, 
+                                                      "name": "www.myexisadouche.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.6158, 
+                                                      "name": "www.gamesofdesire.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.6158, 
+                                                      "name": "cdn.complex.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.6158, 
+                                                      "name": "cdn.adops.complex.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.6158, 
+                                                      "name": "gallery.photo.net"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.6158, 
+                                                      "name": "www.pixiv.net"
+                                                      }, 
+                                                      {
+                                                      "bl": 1, 
+                                                      "cc": "US", 
+                                                      "dist": 7.6158, 
+                                                      "name": "server10.opentracker.net"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.6158, 
+                                                      "name": "cdn01.cdn.socialitelife.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.6158, 
+                                                      "name": "www.xxxswim.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.6158, 
+                                                      "name": "20104.swagster.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.6158, 
+                                                      "name": "i.thegloss.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.6158, 
+                                                      "name": "www.proxytunnel.net"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.6158, 
+                                                      "name": "www.awn.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.6158, 
+                                                      "name": "www.lustpin.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.6158, 
+                                                      "name": "go.adversal.com"
+                                                      }
+                                                      ],
+                                         "cluster_dom_count": 682, 
+                                         "name": "67.215.65.130"
+                                         }]},
+                             {
+                             "name":"67.215.66.0/24",
+                             "bl": 1,
+                             "bl_count": 9,
+                             "cluster_dom_count": 32,
+                             "cc": "US",
+                             "len_ips":1,
+                             "children":[
+                                         
+                                         {
+                                         "bl_count": 6, 
+                                         "cc": "US", 
+                                         "children": [
+                                                      {
+                                                      "bl": 1, 
+                                                      "cc": "EU,RU,US", 
+                                                      "dist": 0.0, 
+                                                      "name": "rghost.ru"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US,ZZ", 
+                                                      "dist": 7.6158, 
+                                                      "name": "www.videodirectory25.info"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US,ZZ", 
+                                                      "dist": 7.746, 
+                                                      "name": "www.ambrosiasw.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.746, 
+                                                      "name": "jquery-ui.googlecode.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "CA,US,ZZ", 
+                                                      "dist": 7.9373, 
+                                                      "name": "tr1031.myroitracking.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US,ZZ", 
+                                                      "dist": 8.0, 
+                                                      "name": "www.bellazon.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 8.0623, 
+                                                      "name": "e-2dj6wjkoejcpmho.stats.esomniture.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 8.0623, 
+                                                      "name": "e-2dj6wnl4ohczibp.stats.esomniture.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "CA,US,ZZ", 
+                                                      "dist": 8.1854, 
+                                                      "name": "tr5.myroitracking.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 8.2462, 
+                                                      "name": "efarm.biz"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 8.3066, 
+                                                      "name": "servicemap.mobile.conduit-services.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "NL,US,ZZ", 
+                                                      "dist": 8.3666, 
+                                                      "name": "announce.xxx-tracker.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US,ZZ", 
+                                                      "dist": 8.3666, 
+                                                      "name": "www.purevolume.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US,ZZ", 
+                                                      "dist": 8.4261, 
+                                                      "name": "www.gameinformer.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US,ZZ", 
+                                                      "dist": 8.4261, 
+                                                      "name": "www.myeasytv.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 1, 
+                                                      "cc": "US,ZZ,IN", 
+                                                      "dist": 8.4853, 
+                                                      "name": "www.scenicreflections.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "CA,US,ZZ", 
+                                                      "dist": 8.544, 
+                                                      "name": "tr1035.myroitracking.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US,ZZ,GB", 
+                                                      "dist": 8.8318, 
+                                                      "name": "cdn.widgetserver.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 1, 
+                                                      "cc": "US,ZZ", 
+                                                      "dist": 8.8882, 
+                                                      "name": "www9.effectivemeasure.net"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 8.8882, 
+                                                      "name": "myanimelist.net"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US,ZZ", 
+                                                      "dist": 8.8882, 
+                                                      "name": "tbupdate.zugo.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 1, 
+                                                      "cc": "US,VG", 
+                                                      "dist": 8.8882, 
+                                                      "name": "www.accesspasswordrecovery.ws"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "CZ,CH,DE,US,ZZ", 
+                                                      "dist": 9.1104, 
+                                                      "name": "www.telecinco.pro"
+                                                      }, 
+                                                      {
+                                                      "bl": 1, 
+                                                      "cc": "RU,US,ZZ", 
+                                                      "dist": 9.434, 
+                                                      "name": "www.tns-counter.ru"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US,VG", 
+                                                      "dist": 9.5917, 
+                                                      "name": "sportrac.com"
+                                                      }
+                                                      ],
+                                         "cluster_dom_count": 32, 
+                                         "name": "67.215.66.149"
+                                         }]},
+                             {
+                             "name":"89.248.224.0/22",
+                             "bl": 1,
+                             "bl_count": 2,
+                             "cluster_dom_count": 2,
+                             "cc": "RU",
+                             "len_ips":2,
+                             "children":[
+                                         {
+                                         "bl_count": 1, 
+                                         "cc": "RU", 
+                                         "children": [
+                                                      {
+                                                      "bl": 1, 
+                                                      "cc": "EU,RU,US", 
+                                                      "dist": 0.0, 
+                                                      "name": "rghost.ru"
+                                                      }
+                                                      ],
+                                         "cluster_dom_count": 1, 
+                                         "name": "89.248.225.41"
+                                         }, 
+                                         {
+                                         "bl_count": 1, 
+                                         "cc": "RU", 
+                                         "children": [
+                                                      {
+                                                      "bl": 1, 
+                                                      "cc": "EU,RU,US", 
+                                                      "dist": 0.0, 
+                                                      "name": "rghost.ru"
+                                                      }
+                                                      ],
+                                         "cluster_dom_count": 1, 
+                                         "name": "89.248.225.50"
+                                         }]},
+                             {
+                             "name": "All RHIP Clusters",
+                             "cluster_dom_count": 98,
+                             "bl_count": 1,
+                             "children":[
+                                         {
+                                         "bl_count": 1, 
+                                         "cc": "", 
+                                         "children": [
+                                                      {
+                                                      "bl": 1, 
+                                                      "cc": "EU,RU,US", 
+                                                      "dist": 0.0, 
+                                                      "name": "rghost.ru"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.0711, 
+                                                      "name": "artram.info"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.0711, 
+                                                      "name": "emiamo.info"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.0711, 
+                                                      "name": "congresoabierto.cl"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.0711, 
+                                                      "name": "www.delaysprey.org"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.0711, 
+                                                      "name": "ukmoneyday.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.0711, 
+                                                      "name": "cf-protected.autographedcollegefootballphotos.info"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.0711, 
+                                                      "name": "cf-protected.q.na"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.2111, 
+                                                      "name": "cf-protected-www.rojastaxes.com.cdn.cloudflare.net"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.4833, 
+                                                      "name": "cf-protected-www.gamers.it.cdn.cloudflare.net"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.4833, 
+                                                      "name": "www2.indolombok.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.4833, 
+                                                      "name": "zhyurikha.org"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.4833, 
+                                                      "name": "www.realestateofmacomb.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.4833, 
+                                                      "name": "cf-protected-www.egy-law.com.cdn.cloudflare.net"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.4833, 
+                                                      "name": "cf-protected-www.wrightds.com.cdn.cloudflare.net"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.5498, 
+                                                      "name": "dailydoggies.info"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.6158, 
+                                                      "name": "cf-protected.incarte.altervista.org.cdn.cloudflare.net"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.6158, 
+                                                      "name": "cf-protected.centrolaser.altervista.org.cdn.cloudflare.net"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.6158, 
+                                                      "name": "remotedebug.org"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.6811, 
+                                                      "name": "realestateofmacomb.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.746, 
+                                                      "name": "devianttraveler.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.746, 
+                                                      "name": "cloudthumbs.com"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "US", 
+                                                      "dist": 7.746, 
+                                                      "name": "cf-protected-www.analorgasm.biz.cdn.cloudflare.net"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "TR,US", 
+                                                      "dist": 7.8102, 
+                                                      "name": "delaysprey.org"
+                                                      }, 
+                                                      {
+                                                      "bl": 0, 
+                                                      "cc": "ES,US", 
+                                                      "dist": 7.8102, 
+                                                      "name": "grupodinamika.info"
+                                                      }
+                                                      ],
+                                         "cluster_dom_count": 98, 
+                                         "name": "Combined RHIP Clusters"
+                                         }
+                                         ]
+                             }
+                             ]
+                }];
+
+var colorRed = d3.scale.ordinal()
+.domain([1, 9])
+.range(colorbrewer.Reds[9]);
+
+var colorGr = d3.scale.ordinal()
+.domain([1, 9])
+.range(colorbrewer.Greens[9]);
+
+var margin = {top: 20, right: 120, bottom: 20, left: 120},
+width = 960 - margin.right - margin.left,
+height = 900 - margin.top - margin.bottom;//height = 800 - margin.top - margin.bottom;
+
+var i = 0,
+duration = 750,
+root;
+
+var tree = d3.layout.tree()
+//.sort(function(a, b) { return b.dist-a.dist; }) //WORKS!  descending by distance.
+.sort(function(a, b) { return a.dist-b.dist; }) //WORKS!  ascending by distance.
+//.separation(function(a, b) { return (a.parent == b.parent ? 1 : 2); })
+//.separation(function(a, b) { return (a.parent == b.parent ? 1 : 2) / a.depth; })
+.separation(function(a, b) { return ((a.parent == root) && (b.parent == root)) ? 5 : 6; })
+.size([height, width]);
+
+var diagonal = d3.svg.diagonal()
+.projection(function(d) { return [d.y, d.x]; });
+
+var svg = d3.select("body").append("svg")
+.attr("width", width + margin.right + margin.left)
+.attr("height", height + margin.top + margin.bottom)
+.append("g")
+.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+//var rScale = d3.scale.linear().domain([5, 25]).range([5, 25]);
+var rScale = d3.scale.log() //scale radius of the nodes
+.domain([1, 50])
+.range([5, 20]);
+
+//d3.json("json/asmadania.com.txt.json", function(error, flare) {
+//d3.json("json/www.riukuzaki.com.txt.json", function(error, flare) {
+//d3.json("json/vkduty.ru.txt.json", function(error, flare) {
+//d3.json("json/rghost.ru.bgp.txt", function(error, flare) {
+//d3.json("json/cikmayedekparca.com.txt.json", function(error, flare) {
+//d3.json("json/emrahkucukkapdan.com.txt.json", function(error, flare) {
+//d3.json("json/gim8.pl.txt.json", function(error, flare) {
+//d3.json("json/juniorboysown.com.txt.json", function(error, flare) {
+//d3.json("json/king-orbit.com.txt.json", function(error, flare) {
+        
+root = treeData[0]; //comment above, uncomment this, to use internal variable.
+
+
+//root = flare; //comment these three lines out if using internal variable
+
+///        root = d3.entries(flare)
+        // sort by value descending
+//        .sort(function(a, b) { return d3.descending(a.value, b.value); });
+//root.x0 = height / 2;
+//root.y0 = 0;
+
+//d3.entries(flare)
+        // sort by value descending
+//        .sort(function(a, b) { return d3.descending(a.value, b.value); });
+        // take the first option
+        //[0];
+        // { key: "01", value: 32710 }
+        
+function collapse(d) {
+if (d.children) {
+d._children = d.children;
+d._children.forEach(collapse);
+d.children = null;
+ }
+}
+
+var zoom = function() {
+var scale = d3.event.scale,
+translation = d3.event.translate,
+tbound = -height * scale,
+bbound = height * scale,
+lbound = (-width + margin.right) * scale,
+rbound = (width - margin.left) * scale;
+// limit translation to thresholds
+translation = [
+                Math.max(Math.min(translation[0], rbound), lbound),
+                Math.max(Math.min(translation[1], bbound), tbound)
+            ];
+svg.attr("transform", "translate(" + translation + ")" + " scale(" + scale + ")");
+}
+        
+root.children.forEach(collapse);
+update(root);
+//}); //comment this line out if using internal variable
+
+d3.select(self.frameElement).style("height", "800px");
+
+function update(source) {
+    
+    // Compute the new tree layout.
+    var nodes = tree.nodes(root).reverse(),
+    links = tree.links(nodes);
+    
+    
+    // Normalize for fixed-depth. automatically reduces leaf seperation when # nodes increase
+    //nodes.forEach(function(d) { d.y = d.depth * 180; });
+    
+    // Normalize for fixed-depth. seperates into columns
+    nodes.forEach(function (d) {
+          d.y = d.depth * 180;
+          if (d.parent != null) {
+                  d.x =  d.parent.x - (d.parent.children.length-1)*30/2
+          + (d.parent.children.indexOf(d))*30;
+          }
+          // if the node has too many children, go in and fix their positions to two columns.
+          if (d.children != null && d.children.length > 50) {//if (d.children != null && d.children.length > 4) {
+          d.children.forEach(function (d, i) {
+                             d.y = (d.depth * 180 + i % 2 * 100);
+                             d.x =  d.parent.x - (d.parent.children.length-1)*30/8
+                             + (d.parent.children.indexOf(d))*30/4 - i % 2 * 15;
+                             });
+          }
+          });
+
+//d.children.forEach(function (d, i) {
+//                   d.y = (d.depth * 180 + i % 2 * 100);
+//                   d.x =  d.parent.x - (d.parent.children.length-1)*30/4
+//                   + (d.parent.children.indexOf(d))*30/2 - i % 2 * 15;
+//                   });
+//}
+//    });
+
+    //var k = .1 * e.alpha;
+    //nodes.forEach(function(d) {
+    //              d.x += ((maxDepth - d.depth) * 100 - d.x) * k;
+    //              });
+                  
+   // nodes.forEach(function(node) {node.children.sort(comparator); return node;})
+    //tree.nodes(root);
+    
+     //tree.sort(comparator(update(a),update(b)));
+     
+    // Update the nodes…
+    var node = svg.selectAll("g.node")
+    .data(nodes, function(d) { return d.id || (d.id = ++i); });
+    
+    // Enter any new nodes at the parent's previous position.
+    var nodeEnter = node.enter().append("g")
+    .attr("class", "node")
+    .attr("transform", function(d) { return "translate(" + source.y0 + "," + source.x0 + ")"; })
+    //.attr("transform", function(d) {
+    //      return "translate(" + d.y + "," + d.x + ")"; });
+    .on("click", click);
+    
+    nodeEnter.append("circle") //changes children nodes
+    //.attr("r", function(d) { return d.cluster_dom_count; })
+    .style("stroke", function(d) { if (d.bl==1) {return d3.rgb(203,24,29) }
+           else {return d3.rgb(0,109,44)};})
+    .attr("r", 1e-6)
+    .style("fill", function(d) { return d._children ? "lightsteelblue" : "#fff"; });
+    
+    
+    //tree.nodeSize([nodeSize]) #might only work for ALL nodes not individual
+    //NODE SIZE HERE based on LENGTH of children list
+    
+    nodeEnter.append("text")
+    .attr("x", function(d) { return d.children || d._children ? -10 : 10; })
+    .attr("dy", ".35em")
+    .attr("text-anchor", function(d) { return d.children || d._children ? "end" : "start"; })
+    .text(function(d) { if(d.cc) {return d.name+" cc:"+d.cc }
+          else {return d.name};}) //use CC seperately REPLACE WHEN DONE
+    .style("fill-opacity", 1e-6);
+    
+    //TEXT COLOR BASED ON M=0 or 1
+    
+    // Transition nodes to their new position.
+    var nodeUpdate = node.transition()
+    .duration(duration)
+    .attr("transform", function(d) { return "translate(" + d.y + "," + d.x + ")"; });
+    
+    nodeUpdate.select("circle")
+    //.attr("r", 4.5)
+    .attr("r", function(d) { if (d.cluster_dom_count>6) {return (rScale(d.cluster_dom_count)) }
+          else {return 6}; })
+    .style("stroke", function(d) { if (d.bl==1 || d.bl_count>0) {return d3.rgb(203,24,29)}//colorRed(9) } //red
+           else  {return d3.rgb(0,109,44)};})
+           .style("stroke-width",function(d) {if (d.bl_count>0 || d.bl==1) {return (d.bl_count/rScale(d.cluster_dom_count)) }
+                  else {return 1};})
+    .style("fill", function(d) { return d._children ? "lightsteelblue" : "#fff"; });
+    
+    nodeUpdate.select("text")
+    .style("fill-opacity", 1);
+    
+    // Transition exiting nodes to the parent's new position.
+    var nodeExit = node.exit().transition()
+    .duration(duration)
+    .attr("transform", function(d) { return "translate(" + source.y + "," + source.x + ")"; })
+    .remove();
+    
+    nodeExit.select("circle")
+    .style("stroke", function(d) { if (d.bl==1) {return d3.rgb(203,24,29) } //red
+           else {return d3.rgb(0,109,44)};})
+    .attr("r", 1e-6);
+    
+    nodeExit.select("text")
+    .style("fill-opacity", 1e-6);
+    
+    // Update the links…
+    var link = svg.selectAll("path.link")
+    .data(links, function(d) { return d.target.id; });
+    
+    // Enter any new links at the parent's previous position.
+    link.enter().insert("path", "g")
+    .attr("class", "link")
+    .attr("d", function(d) {
+      var o = {x: source.x0, y: source.y0};
+      return diagonal({source: o, target: o});
+      });
+      
+      // Transition links to their new position.
+      link.transition()
+      .duration(duration)
+      .attr("d", diagonal);
+      
+      // Transition exiting nodes to the parent's new position.
+      link.exit().transition()
+      .duration(duration)
+      .attr("d", function(d) {
+            var o = {x: source.x, y: source.y};
+            return diagonal({source: o, target: o});
+            })
+            .remove();
+            
+            // Stash the old positions for transition.
+            nodes.forEach(function(d) {
+                          d.x0 = d.x;
+                          d.y0 = d.y;
+                          });
+}
+    
+    // Toggle children on click.
+function click(d) {
+    if (d.children) {
+        d._children = d.children;
+        d.children = null;
+    } else {
+        d.children = d._children;
+        d._children = null;
+    }
+    update(d);
+}
+    
+
+    
+//function comparator(a, b) {//compare distances for sorting
+//    return d3.descending(a, b);
+//}
+function comparator(a, b) {
+    return a- b;
+}
+
+        </script>
