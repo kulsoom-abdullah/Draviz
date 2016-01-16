@@ -4,9 +4,9 @@
 ======
 ![Alt text](https://github.com/kulsoom-abdullah/Draviz/blob/master/screenshots/Draviz.jpg "Optional Title")
 This repository includes:
- * **dravis_final.pdf** - PDF of the slides from the project presentation which includes screenshots of the d3 visualization.
- * Python and D3 code from the group project that Spring 2014 (I audited Data and Visual Analytics, a Computer Science course at Georgia Tech)
- * Screenshots of the D3 visualization
+* **dravis_final.pdf** - PDF of the slides from the project presentation which includes screenshots of the d3 visualization
+* Python and D3 code from the group project that Spring 2014 (I audited Data and Visual Analytics, a Computer Science course at Georgia Tech)
+* Screenshots of the D3 visualization
 
  <!---The D3 demo can be run by downloading *draviz.html*, and the d3 folder (which contains *d3.min.js* and *colorbrewer.v1.min.js*), then clicking on draviz2.html or opening it with your web browser.   --->
 
@@ -45,3 +45,12 @@ To find their new malicious domain names, we leverage DNS agility for reputation
      * More levels of indirection exponentially increases the number of nodes in the graph
    * Helps to improve accuracy, reliability of blacklists. [Blacklists are created for different purposes; seeing blacklisted firms in or near one cluster is helpful.]
    * Reveal new, potentially interesting features: hyphenated names, # of total blacklist / # of domains in combined cluster
+
+##### Future Work
+* More evaluation!
+   * Needs to encompass larger evalua2on data set
+* Build infrastructure to handle 2 addi2onal levels of indirec2on for a given domain of interest
+   * This adds MM of nodes to the graph
+* More features based on network structure
+needed like different measures of centrality
+   * Agility of a5acks lends itself to examining network- based features
