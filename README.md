@@ -48,9 +48,8 @@ To find their new malicious domain names, we leverage DNS agility for reputation
 
 ##### Future Work
 * More evaluation!
-   * Needs to encompass larger evalua2on data set
-* Build infrastructure to handle 2 addi2onal levels of indirec2on for a given domain of interest
+   * Needs to encompass larger evaluation data set
+* Build infrastructure to handle 2 additional levels of indirection for a given domain of interest
    * This adds MM of nodes to the graph
-* More features based on network structure
-needed like different measures of centrality
-   * Agility of a5acks lends itself to examining network- based features
+* More features based on network structure needed like different measures of centrality
+   * Agility of attacks lends itself to examining network-based features
