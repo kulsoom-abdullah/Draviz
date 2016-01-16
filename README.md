@@ -3,10 +3,10 @@
 #####Terry Nelms, Kulsoom Abdullah, & Joshua Kimball
 ======
 ![Alt text](https://github.com/kulsoom-abdullah/Draviz/blob/master/screenshots/Draviz.jpg "Optional Title")
-I audited Data and Visual Analytics, a Computer Science course at Georgia Tech.  This repository includes 
+I audited Data and Visual Analytics, a Computer Science course at Georgia Tech.  This repository includes:
+* **dravis_final.pdf** - PDF of the slides from the project presentation which includes screenshots of the d3 visualization.
 * Python and D3 code from the group project that Spring 2014.
 * Screenshots of the D3 visualization
-* **dravis_final.pdf** - PDF of the slides from the project presentation which includes screenshots of the d3 visualization.
 
  <!---The D3 demo can be run by downloading *draviz.html*, and the d3 folder (which contains *d3.min.js* and *colorbrewer.v1.min.js*), then clicking on draviz2.html or opening it with your web browser.   --->
 
@@ -37,7 +37,7 @@ To find their new malicious domain names, we leverage DNS agility for reputation
  * Identify cluster with domain of interest.
  * Label blacklist domains.
  * Euclidean distance from domains in cluster.
-* Initial evaluation led analyst to correctly classify approximately 80% of the “unlabeled” domains
+#####Initial evaluation led analyst to correctly classify approximately 80% of the “unlabeled” domains
  * Generally,clustering and visualization is a good approach for this problem:
   * Only mechanism to communicate & analyze inordinately large, complex structures, i.e. IP networks
    * More levels of indirection exponen2ally increases the number of nodes in the graph
