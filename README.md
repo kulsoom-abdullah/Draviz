@@ -2,6 +2,7 @@
 ###Visualizing Domain Reputation & Attribution
 #####Terry Nelms, Kulsoom Abdullah, & Joshua Kimball
 ======
+![Alt text](https://github.com/kulsoom-abdullah/Draviz/blob/master/screenshots/Draviz.jpg "Optional Title")
 I audited Data and Visual Analytics, a Computer Science course at Georgia Tech.  This repository includes 
 * Python and D3 code from the group project that Spring 2014.
 * Screenshots of the D3 visualization
