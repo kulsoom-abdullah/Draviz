@@ -8,26 +8,25 @@ I audited Data and Visual Analytics, a Computer Science course at Georgia Tech. 
 * Screenshots of the D3 visualization
 * **dravis_final.pdf** - PDF of the slides from the project presentation which includes screenshots of the d3 visualization.
 
-The D3 demo can be run by downloading *draviz.html*, and the d3 folder (which contains *d3.min.js* and *colorbrewer.v1.min.js*), then clicking on draviz2.html or opening it with your web browzer.  
+ <!---The D3 demo can be run by downloading *draviz.html*, and the d3 folder (which contains *d3.min.js* and *colorbrewer.v1.min.js*), then clicking on draviz2.html or opening it with your web browser.   --->
 
 ####Summary:
 Malware operators continue their activity and passing on instructions to their bots (machines they have control over) by using agility in domains, which helps to avoid takedown and being blacklisted.
 To find their new malicious domain names, we leverage DNS agility for reputation & attribution.  Domains can be clustered domains on their common network relationships.  Network IPs are expensive and generally not changed as frequently as domain names can be.
 
-Data Sources:
-Passive DNS Database:
+#####Data Sources:
+1. Passive DNS Database of DNS Records:
+ * 22 Billion per day.
+ * 8 Trillion per year.
+ * From:
+   * ISPs 
+    * Telcos 
+    * Enterprises
 
-" 22 Billion per day.
-" 8 Trillion per year.
-DNS Records From
-"  ISPs
-Telcos 
-Enterprises
-
-￼pDNSDB - Related Historic IP Addresses
-IP addresses that a domain has ever resolved to
-￼pDNSDB - Related Historic Domain Names
-Domain names that have ever resolved to an IP address
+2. ￼pDNSDB - Related Historic IP Addresses
+*IP addresses that a domain has ever resolved to
+3. ￼pDNSDB - Related Historic Domain Names
+*Domain names that have ever resolved to an IP address
 
 Cluster method
 •  Features.
