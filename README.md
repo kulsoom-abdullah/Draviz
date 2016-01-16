@@ -30,17 +30,17 @@ To find their new malicious domain names, we leverage DNS agility for reputation
 
 #####Cluster method
 * Features.
-–  Total IPs & networks.
-–  IP address, BGP prefix, ASN, country code.
+ * Total IPs & networks.
+ * IP address, BGP prefix, ASN, country code.
 * Algorithm. –  K-means.
-–  sparse matrix.
-•  Domain annotation.
-–  Identify cluster with domain of interest.
-–  Label blacklist domains.
-–  Euclidean distance from domains in cluster.
+ * sparse matrix.
+* Domain annotation.
+ * Identify cluster with domain of interest.
+ * Label blacklist domains.
+ * Euclidean distance from domains in cluster.
 
-Initial evaluation led analyst to correctly classify approximately 80% of the “unlabeled” domains
-•  Generally,clustering and visualization is a good approach for this problem:
+* Initial evaluation led analyst to correctly classify approximately 80% of the “unlabeled” domains
+ * Generally,clustering and visualization is a good approach for this problem:
 –  Only mechanism to communicate & analyze inordinately large, complex structures, i.e. IP networks
 •  More levels of indirection exponen2ally increases the number of nodes in the graph
 –  Helps to improve accuracy, reliability of blacklists. [Blacklists are created for different purposes; seeing blacklisted firms in or near one cluster is helpful.]
