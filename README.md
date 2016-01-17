@@ -4,7 +4,7 @@
 ======
 ![Alt text](https://github.com/kulsoom-abdullah/Draviz/blob/master/screenshots/Draviz.jpg "Optional Title")
 This repository includes:
-* **dravis_final.pdf** - PDF of the slides from the project presentation which includes screenshots of the d3 visualization
+* [dravis_final.pdf] (https://github.com/kulsoom-abdullah/Draviz/blob/master/dravis_final.pdf) - PDF of the slides from the project presentation which includes screenshots of the d3 visualization
 * Python and D3 code from the group project that Spring 2014 (I audited Data and Visual Analytics, a Computer Science course at Georgia Tech)
 * Screenshots of the D3 visualization
 
